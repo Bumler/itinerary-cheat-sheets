@@ -29,7 +29,7 @@ export default function BelgiumItinerary() {
       <div className="relative z-10">
         <div className="flex items-center gap-2 mb-1">
           <span className="text-2xl">🇧🇪</span>
-          <h1 className="text-3xl font-bold text-white tracking-tight">Belgium</h1>
+          <h1 className="text-3xl font-bold text-white tracking-tight">Brussels</h1>
         </div>
         <p className="text-amber-200/60 text-xs tracking-wide mb-3">
           <span className="text-amber-300 font-semibold">Brussels</span>
@@ -43,6 +43,7 @@ export default function BelgiumItinerary() {
               <p className="text-amber-300 text-xs uppercase tracking-wider">Arrive</p>
               <p className="text-white font-bold">12/13</p>
               <p className="text-white/70 text-xs">1:40pm ✈️</p>
+              <p className="text-white/50 text-[9px]">BRU</p>
             </div>
             <div className="flex-1 flex items-center justify-center px-3">
               <div className="h-px bg-gradient-to-r from-transparent via-amber-400 to-transparent w-full"></div>
@@ -53,6 +54,7 @@ export default function BelgiumItinerary() {
               <p className="text-amber-300 text-xs uppercase tracking-wider">Depart</p>
               <p className="text-white font-bold">12/17</p>
               <p className="text-white/70 text-xs">11:13am 🚂</p>
+              <p className="text-white/50 text-[9px]">Brussel Midi, Zuid</p>
             </div>
           </div>
         </div>
