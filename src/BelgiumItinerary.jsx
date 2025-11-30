@@ -19,25 +19,31 @@ export default function BelgiumItinerary() {
   };
 
   return (
-    <div className="flex flex-col items-center gap-4">
-      <div ref={cardRef} className="w-[390px] min-h-[844px] bg-gradient-to-b from-amber-900 via-red-900 to-slate-900 p-4 font-sans relative overflow-hidden">
+    <div className="flex flex-col items-center gap-4 md:p-4">
+      <div ref={cardRef} className="w-screen min-h-screen md:w-[393px] md:min-h-[852px] bg-gradient-to-b from-amber-900 via-red-900 to-slate-900 p-3 md:p-4 font-sans relative overflow-hidden flex flex-col">
       {/* Decorative background elements */}
       <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500 opacity-10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
       <div className="absolute bottom-40 left-0 w-48 h-48 bg-red-400 opacity-10 rounded-full blur-3xl -translate-x-1/2"></div>
       
       {/* Header */}
-      <div className="relative z-10">
-        <div className="flex items-center gap-2 mb-1">
-          <span className="text-2xl">🇧🇪</span>
-          <h1 className="text-3xl font-bold text-white tracking-tight">Brussels</h1>
+      <div className="relative z-10 flex flex-col h-full">
+        <div className="flex items-start justify-between mb-0.5 md:mb-1">
+          <div className="flex items-center gap-2">
+            <span className="text-2xl">🇧🇪</span>
+            <h1 className="text-3xl font-bold text-white tracking-tight">Brussels</h1>
+          </div>
+          <div className="bg-white/5 rounded-lg px-2 py-1 flex items-center gap-1.5">
+            <span className="text-xs">🏨</span>
+            <p className="text-white/80 text-[10px]">The Scott Hotel</p>
+          </div>
         </div>
-        <p className="text-amber-200/60 text-xs tracking-wide mb-3">
+        <p className="text-amber-200/60 text-xs tracking-wide mb-1.5 md:mb-3">
           <span className="text-amber-300 font-semibold">Brussels</span>
           <span className="mx-1">→</span>Paris<span className="mx-1">→</span>Strasbourg<span className="mx-1">→</span>Zurich<span className="mx-1">→</span>Salzburg<span className="mx-1">→</span>Vienna
         </p>
         
         {/* Travel Info Bar */}
-        <div className="bg-white/10 backdrop-blur-sm rounded-xl p-3 mb-2 border border-white/20">
+        <div className="bg-white/10 backdrop-blur-sm rounded-xl p-2 md:p-3 mb-2 md:mb-4 border border-white/20">
           <div className="flex justify-between items-center">
             <div className="text-center">
               <p className="text-amber-300 text-xs uppercase tracking-wider">Arrive</p>
@@ -58,17 +64,11 @@ export default function BelgiumItinerary() {
             </div>
           </div>
         </div>
-        
-        {/* Hotel Info */}
-        <div className="bg-white/5 rounded-lg px-3 py-2 mb-4 flex items-center justify-center gap-2">
-          <span className="text-sm">🏨</span>
-          <p className="text-white/80 text-xs">Staying at <span className="text-white font-medium">The Scott Hotel Brussels</span></p>
-        </div>
 
         {/* Main Content - Split Layout */}
-        <div className="flex gap-3 items-stretch">
+        <div className="flex gap-2 md:gap-3 items-stretch flex-1">
           {/* Left Column - Itinerary (58%) */}
-          <div className="flex-1 flex flex-col justify-between">
+          <div className="flex-1 flex flex-col justify-between gap-[2px]">
             {/* Day 1 */}
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-3 border border-white/10">
               <div className="flex items-center gap-2 mb-2">
@@ -159,7 +159,7 @@ export default function BelgiumItinerary() {
           </div>
 
           {/* Right Column - Info Panels (42%) */}
-          <div className="w-[145px] space-y-2">
+          <div className="w-[145px] space-y-1.5 md:space-y-2">
             {/* Christmas Markets */}
             <div className="bg-gradient-to-br from-emerald-800/50 to-emerald-900/70 backdrop-blur-sm rounded-xl p-3 border border-emerald-500/30 h-fit">
               <div className="flex items-center gap-1.5 mb-3">
@@ -169,45 +169,27 @@ export default function BelgiumItinerary() {
               <div className="space-y-1.5">
                 <div className="flex items-start gap-2">
                   <span className="text-emerald-400 text-xs mt-0.5">★</span>
-                  <div>
-                    <p className="text-white text-[11px] font-medium leading-tight">Grand Place</p>
-                    <p className="text-white/50 text-[9px]">Light shows & tree</p>
-                  </div>
+                  <p className="text-white text-[11px] font-medium leading-tight">Grand Place</p>
                 </div>
                 <div className="flex items-start gap-2">
                   <span className="text-emerald-400 text-xs mt-0.5">★</span>
-                  <div>
-                    <p className="text-white text-[11px] font-medium leading-tight">Place Ste-Catherine</p>
-                    <p className="text-white/50 text-[9px]">Main market hub</p>
-                  </div>
+                  <p className="text-white text-[11px] font-medium leading-tight">Place Ste-Catherine</p>
                 </div>
                 <div className="flex items-start gap-2">
                   <span className="text-emerald-400 text-xs mt-0.5">★</span>
-                  <div>
-                    <p className="text-white text-[11px] font-medium leading-tight">Marché aux Poissons</p>
-                    <p className="text-white/50 text-[9px]">200+ chalets</p>
-                  </div>
+                  <p className="text-white text-[11px] font-medium leading-tight">Marché aux Poissons</p>
                 </div>
                 <div className="flex items-start gap-2">
                   <span className="text-emerald-400 text-xs mt-0.5">★</span>
-                  <div>
-                    <p className="text-white text-[11px] font-medium leading-tight">Place de Brouckère</p>
-                    <p className="text-white/50 text-[9px]">Ice rink & Ferris wheel</p>
-                  </div>
+                  <p className="text-white text-[11px] font-medium leading-tight">Place de Brouckère</p>
                 </div>
                 <div className="flex items-start gap-2">
                   <span className="text-emerald-400 text-xs mt-0.5">★</span>
-                  <div>
-                    <p className="text-white text-[11px] font-medium leading-tight">Tour Noire</p>
-                    <p className="text-white/50 text-[9px]">Medieval tower</p>
-                  </div>
+                  <p className="text-white text-[11px] font-medium leading-tight">Tour Noire</p>
                 </div>
                 <div className="flex items-start gap-2">
                   <span className="text-emerald-400 text-xs mt-0.5">★</span>
-                  <div>
-                    <p className="text-white text-[11px] font-medium leading-tight">Bruges Markt</p>
-                    <p className="text-white/50 text-[9px]">Main square</p>
-                  </div>
+                  <p className="text-white text-[11px] font-medium leading-tight">Bruges Markt</p>
                 </div>
               </div>
             </div>
@@ -221,59 +203,35 @@ export default function BelgiumItinerary() {
               <div className="space-y-1">
                 <div className="flex items-center gap-2">
                   <span className="text-base">🧇</span>
-                  <div>
-                    <p className="text-white text-[11px] font-medium">Waffles</p>
-                    <p className="text-white/50 text-[9px]">Liège style!</p>
-                  </div>
+                  <p className="text-white text-[11px] font-medium">Waffles</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="text-base">🍟</span>
-                  <div>
-                    <p className="text-white text-[11px] font-medium">Frites</p>
-                    <p className="text-white/50 text-[9px]">Double-fried + mayo</p>
-                  </div>
+                  <p className="text-white text-[11px] font-medium">Frites</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="text-base">🥔</span>
-                  <div>
-                    <p className="text-white text-[11px] font-medium">Croquettes</p>
-                    <p className="text-white/50 text-[9px]">Crispy & creamy</p>
-                  </div>
+                  <p className="text-white text-[11px] font-medium">Croquettes</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="text-base">🦪</span>
-                  <div>
-                    <p className="text-white text-[11px] font-medium">Moules-Frites</p>
-                    <p className="text-white/50 text-[9px]">National dish!</p>
-                  </div>
+                  <p className="text-white text-[11px] font-medium">Moules-Frites</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="text-base">🍪</span>
-                  <div>
-                    <p className="text-white text-[11px] font-medium">Speculoos</p>
-                    <p className="text-white/50 text-[9px]">Spiced cookie</p>
-                  </div>
+                  <p className="text-white text-[11px] font-medium">Speculoos</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="text-base">🍺</span>
-                  <div>
-                    <p className="text-white text-[11px] font-medium">Trappist Beer</p>
-                    <p className="text-white/50 text-[9px]">Abbey brews</p>
-                  </div>
+                  <p className="text-white text-[11px] font-medium">Trappist Beer</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="text-base">🍷</span>
-                  <div>
-                    <p className="text-white text-[11px] font-medium">Glühwein</p>
-                    <p className="text-white/50 text-[9px]">Hot mulled wine</p>
-                  </div>
+                  <p className="text-white text-[11px] font-medium">Glühwein</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="text-base">🥃</span>
-                  <div>
-                    <p className="text-white text-[11px] font-medium">Jenever</p>
-                    <p className="text-white/50 text-[9px]">Belgian gin</p>
-                  </div>
+                  <p className="text-white text-[11px] font-medium">Jenever</p>
                 </div>
               </div>
             </div>
@@ -281,7 +239,7 @@ export default function BelgiumItinerary() {
         </div>
 
         {/* Footer */}
-        <div className="mt-4 text-center">
+        <div className="mt-2 md:mt-4 text-center">
           <p className="text-white/40 text-[10px] tracking-widest">Nicole and Henry 2025</p>
           <div className="flex justify-center gap-1 mt-1">
             <span className="text-sm">🍫</span><span className="text-sm">🍺</span><span className="text-sm">🧇</span><span className="text-sm">🎄</span><span className="text-sm">❄️</span>
@@ -292,7 +250,7 @@ export default function BelgiumItinerary() {
     
     <button
       onClick={downloadAsImage}
-      className="bg-amber-500 hover:bg-amber-600 text-white font-semibold py-2 px-6 rounded-full transition-colors flex items-center gap-2"
+      className="hidden md:flex bg-amber-500 hover:bg-amber-600 text-white font-semibold py-2 px-6 rounded-full transition-colors items-center gap-2"
     >
       <span>📥</span> Download as Image
     </button>
