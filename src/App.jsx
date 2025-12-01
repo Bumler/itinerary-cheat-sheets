@@ -1,12 +1,18 @@
 import { useState, useRef } from 'react';
 import ItineraryCard from './ItineraryCard';
-import itineraryData from './data/itineraries.json';
+import config from './data/config.json';
+import brussels from './data/brussels.json';
+import paris from './data/paris.json';
+import strasbourg from './data/strasbourg.json';
+import zurich from './data/zurich.json';
 import html2canvas from 'html2canvas';
+
+const cities = [brussels, paris, strasbourg, zurich];
+const { route } = config;
 
 export default function App() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const cardRefs = useRef([]);
-  const { route, cities } = itineraryData;
 
   const goToPrevious = () => {
     setCurrentIndex((prev) => (prev === 0 ? cities.length - 1 : prev - 1));
@@ -90,7 +96,10 @@ export default function App() {
             className={`w-2 h-2 rounded-full transition-colors ${
               index === currentIndex 
                 ? cityData.accentColor === 'red' ? 'bg-red-500' 
-                : cityData.accentColor === 'blue' ? 'bg-blue-500' 
+                : cityData.accentColor === 'blue' ? 'bg-blue-500'
+                : cityData.accentColor === 'emerald' ? 'bg-emerald-500'
+                : cityData.accentColor === 'sky' ? 'bg-sky-500'
+                : cityData.accentColor === 'cyan' ? 'bg-cyan-500'
                 : 'bg-amber-500'
                 : 'bg-white/30'
             }`}
@@ -105,7 +114,13 @@ export default function App() {
           cities[currentIndex].accentColor === 'red' 
             ? 'bg-red-500 hover:bg-red-600' 
             : cities[currentIndex].accentColor === 'blue' 
-            ? 'bg-blue-500 hover:bg-blue-600' 
+            ? 'bg-blue-500 hover:bg-blue-600'
+            : cities[currentIndex].accentColor === 'emerald'
+            ? 'bg-emerald-500 hover:bg-emerald-600'
+            : cities[currentIndex].accentColor === 'sky'
+            ? 'bg-sky-500 hover:bg-sky-600'
+            : cities[currentIndex].accentColor === 'cyan'
+            ? 'bg-cyan-500 hover:bg-cyan-600'
             : 'bg-amber-500 hover:bg-amber-600'
         } text-white font-semibold py-2 px-6 rounded-full transition-colors items-center gap-2`}
       >

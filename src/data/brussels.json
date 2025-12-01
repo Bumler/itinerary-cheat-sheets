@@ -1,0 +1,87 @@
+{
+  "city": "Brussels",
+  "country": "Belgium",
+  "flag": "🇧🇪",
+  "gradient": "from-amber-900 via-red-900 to-slate-900",
+  "accentColor": "amber",
+  "footerEmojis": ["🍫", "🍺", "🧇", "🎄", "❄️"],
+  "hotel": {
+    "name": "The Scott Hotel",
+    "type": "hotel"
+  },
+  "arrive": {
+    "date": "12/13",
+    "time": "1:40pm",
+    "type": "plane",
+    "location": "BRU"
+  },
+  "depart": {
+    "date": "12/17",
+    "time": "11:13am",
+    "type": "train",
+    "location": "Brussel Midi, Zuid"
+  },
+  "days": [
+    {
+      "dayNum": 1,
+      "date": "12/13",
+      "title": "Arrive!",
+      "emoji": "🛬",
+      "activities": [
+        { "timeIcon": "☀️", "text": "Explore Neighborhood" },
+        { "timeIcon": "🌙", "text": "Christmas Markets 🎅" }
+      ]
+    },
+    {
+      "dayNum": 2,
+      "date": "12/14",
+      "title": "🍫 & Jazz 🎷",
+      "emoji": "",
+      "activities": [
+        { "timeIcon": "🌅", "text": "🍫 Sommelier @10:30" },
+        { "timeIcon": "☀️", "text": "City Center: Leopold Quarter, Parc Leopold, Cinquantenaire" },
+        { "timeIcon": "🌙", "text": "Ixelles → Jazz @8:30", "subtext": "Music Village" }
+      ]
+    },
+    {
+      "dayNum": 3,
+      "date": "12/15",
+      "title": "Bruges",
+      "emoji": "🏰",
+      "activities": [
+        { "timeIcon": "🌅", "text": "🍳 It's Toast" },
+        { "timeIcon": "☀️", "text": "Minnewater, Belfort, Market & Rosary Quay" },
+        { "timeIcon": "🌙", "text": "🎄 Market & Return" }
+      ]
+    },
+    {
+      "dayNum": 4,
+      "date": "12/16",
+      "title": "Relax or RUN",
+      "emoji": "",
+      "activities": [
+        { "timeIcon": "🌅", "text": "🏃 Run (5k or 10k)", "alternatives": ["Cafe Crawl", "🥕 Marché du Chatelain"] },
+        { "timeIcon": "☀️", "text": "🖼️ Royal Museum", "or": "Ixelles Ponds" },
+        { "timeIcon": "🌙", "text": "✨ Nice Dinner 🍽️" }
+      ]
+    }
+  ],
+  "markets": [
+    "Grand Place",
+    "Place Ste-Catherine",
+    "Marché aux Poissons",
+    "Place de Brouckère",
+    "Tour Noire",
+    "Bruges Markt"
+  ],
+  "foods": [
+    { "emoji": "🧇", "name": "Waffles" },
+    { "emoji": "🍟", "name": "Frites" },
+    { "emoji": "🥔", "name": "Croquettes" },
+    { "emoji": "🦪", "name": "Moules-Frites" },
+    { "emoji": "🍪", "name": "Speculoos" },
+    { "emoji": "🍺", "name": "Trappist Beer" },
+    { "emoji": "🍷", "name": "Glühwein" },
+    { "emoji": "🥃", "name": "Jenever" }
+  ]
+}

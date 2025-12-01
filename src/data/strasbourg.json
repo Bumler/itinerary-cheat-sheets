@@ -1,0 +1,97 @@
+{
+  "city": "Strasbourg",
+  "country": "France",
+  "flag": "🇫🇷",
+  "gradient": "from-blue-800 via-blue-900 to-slate-900",
+  "accentColor": "emerald",
+  "footerEmojis": ["🥨", "🏰", "🎄", "🍷", "❄️"],
+  "hotel": {
+    "name": "5 Rue du Coudrier",
+    "type": "airbnb"
+  },
+  "arrive": {
+    "date": "12/21",
+    "time": "11:54am",
+    "type": "train",
+    "location": "Strasbourg"
+  },
+  "depart": {
+    "date": "12/26",
+    "time": "12:51pm",
+    "type": "train",
+    "location": "Strasbourg"
+  },
+  "days": [
+    {
+      "dayNum": 1,
+      "date": "12/21",
+      "title": "Markets!",
+      "emoji": "🎄",
+      "activities": [
+        { "timeIcon": "☀️", "text": "Arrive, uber to Airbnb, lunch nearby" },
+        { "timeIcon": "🌙", "text": "Place du Château → Cathedral → Gutenberg" },
+        { "timeIcon": "🌃", "text": "Explore Petite France 🏘️" }
+      ]
+    },
+    {
+      "dayNum": 2,
+      "date": "12/22",
+      "title": "Walking & Food",
+      "emoji": "🚶",
+      "activities": [
+        { "timeIcon": "🌅", "text": "Grande Île Loop. Climb Cathedral." },
+        { "timeIcon": "☀️", "text": "Grocery Shopping 🛒" },
+        { "timeIcon": "🌙", "text": "Food Tour @5 🍴" }
+      ]
+    },
+    {
+      "dayNum": 3,
+      "date": "12/23",
+      "title": "Colmar",
+      "emoji": "🚂",
+      "activities": [
+        { "timeIcon": "🌅", "text": "Train (~35m). Little Venice & Canals 🚣" },
+        { "timeIcon": "☀️", "text": "Walk the 5 Christmas Markets 🎄" },
+        { "timeIcon": "🌙", "text": "La Cocotte @7 🍴. Leave by 10" }
+      ]
+    },
+    {
+      "dayNum": 4,
+      "date": "12/24",
+      "title": "Christmas Eve",
+      "emoji": "🎅",
+      "activities": [
+        { "timeIcon": "🌅", "text": "Pick up pastries 🥐 + Run 🏃" },
+        { "timeIcon": "☀️", "text": "Neustadt → Christkindelsmärik 🚶" },
+        { "timeIcon": "🌙", "text": "Markets close @6. Relax ✨" }
+      ]
+    },
+    {
+      "dayNum": 5,
+      "date": "12/25",
+      "title": "Christmas",
+      "emoji": "🎁",
+      "activities": [
+      ]
+    }
+  ],
+  "markets": [
+    "Place du Château",
+    "Cathedral Market",
+    "Place Gutenberg",
+    "Christkindelsmärik",
+    "Petite France",
+    "Place Kléber"
+  ],
+  "foods": [
+    { "emoji": "🥨", "name": "Bretzel" },
+    { "emoji": "🥧", "name": "Tarte Flambée" },
+    { "emoji": "🥟", "name": "Choucroute" },
+    { "emoji": "🍪", "name": "Bredele" },
+    { "emoji": "🍰", "name": "Kougelhopf" },
+    { "emoji": "🌭", "name": "Sausages" },
+    { "emoji": "🧍", "name": "Pain d'Épices" },
+    { "emoji": "🍷", "name": "Gewürztraminer" },
+    { "emoji": "🥂", "name": "Crémant d'Alsace" }
+  ]
+}

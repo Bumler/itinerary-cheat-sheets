@@ -1,0 +1,90 @@
+{
+  "city": "Paris",
+  "country": "France",
+  "flag": "🇫🇷",
+  "gradient": "from-blue-800 via-blue-900 to-slate-900",
+  "accentColor": "red",
+  "footerEmojis": ["🥐", "🗼", "🥖", "🎄", "❄️"],
+  "hotel": {
+    "name": "121 Avenue Jean Jaurès",
+    "type": "airbnb"
+  },
+  "arrive": {
+    "date": "12/17",
+    "time": "12:38pm",
+    "type": "train",
+    "location": "Gare Du Nord"
+  },
+  "depart": {
+    "date": "12/21",
+    "time": "10:08am",
+    "type": "train",
+    "location": "Gare De l'Est"
+  },
+  "days": [
+    {
+      "dayNum": 1,
+      "date": "12/17",
+      "title": "Canal Walk",
+      "emoji": "🚶",
+      "activities": [
+        { "timeIcon": "☀️", "text": "Canal Saint Martin: Banh Mi, bakery, Le Comptoir Général" },
+        { "timeIcon": "🌙", "text": "Dinner @7 at Bistrot Rougemont" },
+        { "timeIcon": "🌃", "text": "La Villette Market" }
+      ]
+    },
+    {
+      "dayNum": 2,
+      "date": "12/18",
+      "title": "Disneyland!",
+      "emoji": "🏰",
+      "activities": [
+        { "timeIcon": "🌅", "text": "Opens @9:30" },
+        { "timeIcon": "☀️", "text": "Thunder Mountain → Hyperspace → Pirates → Ratatouille" },
+        { "timeIcon": "🌙", "text": "Eat at Disney", "or": "Krügen Crêperie" }
+      ]
+    },
+    {
+      "dayNum": 3,
+      "date": "12/19",
+      "title": "Big Paris Day",
+      "emoji": "🗼",
+      "activities": [
+        { "timeIcon": "🌅", "text": "Le Marais: Place des Vosges & Rue des Rosiers" },
+        { "timeIcon": "☀️", "text": "Île Saint-Louis 🍫, Notre Dame" },
+        { "timeIcon": "🌙", "text": "Left Bank + Tuileries Market 🎄" },
+        { "timeIcon": "🌃", "text": "Eiffel Sparkle ✨ + Le Relais de l'Entrecôte 🥩🍟" }
+      ]
+    },
+    {
+      "dayNum": 4,
+      "date": "12/20",
+      "title": "Fancy Lunch",
+      "emoji": "🍽️",
+      "activities": [
+        { "timeIcon": "🌅", "text": "🏃 Run", "or": "Walk La Coulée Verte (Highline)" },
+        { "timeIcon": "☀️", "text": "Lunch at Guy Savoy ⭐" },
+        { "timeIcon": "🌙", "text": "Nap + Christmas Markets 🎄" }
+      ]
+    }
+  ],
+  "markets": [
+    "Tuileries Garden",
+    "La Villette",
+    "Champs-Élysées",
+    "Notre Dame",
+    "Saint-Germain",
+    "Hôtel de Ville"
+  ],
+  "foods": [
+    { "emoji": "🥐", "name": "Croissants" },
+    { "emoji": "🥖", "name": "Baguette" },
+    { "emoji": "🧁", "name": "Macarons" },
+    { "emoji": "🥞", "name": "Crêpes" },
+    { "emoji": "🥩", "name": "Steak Frites" },
+    { "emoji": "🧀", "name": "Fromage" },
+    { "emoji": "🧅", "name": "French Onion Soup" },
+    { "emoji": "🦆", "name": "Duck Confit" },
+    { "emoji": "☕", "name": "Hot Chocolate" }
+  ]
+}

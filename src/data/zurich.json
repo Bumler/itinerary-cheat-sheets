@@ -1,0 +1,76 @@
+{
+  "city": "Zurich",
+  "country": "Switzerland",
+  "flag": "🇨🇭",
+  "gradient": "from-red-700 via-red-900 to-slate-900",
+  "accentColor": "cyan",
+  "footerEmojis": ["🫕", "🧀", "🏔️", "🧖", "❄️"],
+  "hotel": {
+    "name": "Altstadt Hotel",
+    "type": "hotel"
+  },
+  "arrive": {
+    "date": "12/26",
+    "time": "3:26pm",
+    "type": "train",
+    "location": "Zürich HB"
+  },
+  "depart": {
+    "date": "12/29",
+    "time": "TBD",
+    "type": "train",
+    "location": "Zürich HB"
+  },
+  "days": [
+    {
+      "dayNum": 1,
+      "date": "12/26",
+      "title": "Fondue",
+      "emoji": "🫕",
+      "activities": [
+        { "timeIcon": "☀️", "text": "Walk to hotel, eat a snack" },
+        { "timeIcon": "🌙", "text": "Stroll Old Town. Fribourger Fondue Stübli @7 🫕" },
+        { "timeIcon": "🌃", "text": "Bahnhofstrasse Lights Walk (\"Lucy\") ✨" }
+      ]
+    },
+    {
+      "dayNum": 2,
+      "date": "12/27",
+      "title": "Spa Day!!",
+      "emoji": "🧖",
+      "activities": [
+        { "timeIcon": "🌅", "text": "Morning walk around town" },
+        { "timeIcon": "☀️", "text": "Thermalbad & Spa Zürich @2:30. Rooftop sunset 🌅" },
+        { "timeIcon": "🌙", "text": "Late night dinner 🍽️" }
+      ]
+    },
+    {
+      "dayNum": 3,
+      "date": "12/28",
+      "title": "Lake & Explore",
+      "emoji": "🏔️",
+      "activities": [
+        { "timeIcon": "🌅", "text": "🏃 Run OR Walk Lake Zurich. Coffee at Bürkliplatz ☕" },
+        { "timeIcon": "☀️", "text": "Funicular to Polyterrasse 🚃. Zürich West. Visit Viadukt and Frau Gerolds Garten." },
+        { "timeIcon": "🌙", "text": "Late night dinner 🍽️" }
+      ]
+    }
+  ],
+  "markets": [
+    "Bahnhofstrasse (Lucy)",
+    "Wienachtsdorf",
+    "Niederdorf",
+    "Old Town",
+    "Sechseläutenplatz"
+  ],
+  "foods": [
+    { "emoji": "🫕", "name": "Fondue" },
+    { "emoji": "🧀", "name": "Raclette" },
+    { "emoji": "🥔", "name": "Rösti" },
+    { "emoji": "🍫", "name": "Swiss Chocolate" },
+    { "emoji": "🥣", "name": "Birchermüesli" },
+    { "emoji": "🌭", "name": "Bratwurst" },
+    { "emoji": "🍷", "name": "Glühwein" },
+    { "emoji": "☕", "name": "Swiss Coffee" }
+  ]
+}
