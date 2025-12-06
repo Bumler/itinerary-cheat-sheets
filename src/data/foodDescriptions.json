@@ -1,0 +1,63 @@
+{
+  "brussels": {
+    "Waffles": "Belgian waffles come in two styles: Brussels (light, rectangular) and Liège (dense, sweet, caramelized). Best eaten warm from a street vendor with powdered sugar.",
+    "Frites": "Belgium invented fries, not France! Double-fried for crispy outside, fluffy inside. Try with Andalouse or Samurai sauce.",
+    "Croquettes": "Crispy fried balls filled with creamy béchamel and shrimp (crevettes) or cheese. A Belgian pub classic.",
+    "Moules-Frites": "Mussels and fries — Belgium's national dish. Mussels steamed in white wine, celery, and onions. Served by the kilo.",
+    "Speculoos": "Spiced shortcrust biscuits with cinnamon, nutmeg, and cloves. The flavor in Biscoff cookies and spread.",
+    "Trappist Beer": "Belgium has 6 of the world's 14 authentic Trappist breweries. Try Chimay, Westmalle, or Orval.",
+    "Glühwein": "Hot mulled wine (German: 'glow wine'). Spiced with cinnamon, cloves, and citrus. Christmas market essential.",
+    "Jenever": "Dutch/Belgian gin, the grandfather of English gin. Served ice-cold in tulip glasses. Oude (old) is maltier, Jonge (young) is smoother."
+  },
+  "paris": {
+    "Croissants": "Buttery, flaky, crescent-shaped pastry. Best eaten fresh in the morning — look for 'fait maison' (homemade).",
+    "Baguette": "Crusty French bread with soft interior. By law, a traditional baguette can only contain flour, water, salt, and yeast.",
+    "Macarons": "Delicate almond meringue cookies with ganache filling. Ladurée and Pierre Hermé are the famous spots.",
+    "Crêpes": "Thin French pancakes. Sweet (crêpes sucrées) or savory with buckwheat (galettes). Nutella-banana is classic.",
+    "Steak Frites": "Simple bistro perfection: pan-fried steak with crispy fries. Le Relais de l'Entrecôte serves only this, with their secret sauce.",
+    "Fromage": "France has over 400 types of cheese. Try Comté, Brie, or Roquefort at a fromagerie.",
+    "French Onion Soup": "Caramelized onion soup topped with crusty bread and melted Gruyère. Soupe à l'oignon — perfect for cold evenings.",
+    "Duck Confit": "Confit de canard — duck leg slow-cooked in its own fat until tender and crispy. Rich and indulgent.",
+    "Hot Chocolate": "Parisian hot chocolate is thick, rich, and made with real melted chocolate. Try Angelina's famous 'L'Africain'."
+  },
+  "strasbourg": {
+    "Bretzel": "Soft, salted pretzel (German: Brezel). Alsace's German heritage on display. Best warm from a bakery.",
+    "Tarte Flambée": "Flammekueche — Alsatian thin-crust flatbread with crème fraîche, onions, and bacon. Like pizza's French cousin.",
+    "Choucroute": "Sauerkraut (fermented cabbage) with sausages and pork. Choucroute garnie is the full Alsatian feast.",
+    "Bredele": "Traditional Alsatian Christmas cookies in dozens of varieties. Families guard their recipes for generations.",
+    "Kougelhopf": "Bundt-shaped brioche cake with almonds and raisins, dusted with powdered sugar. Alsace's signature pastry.",
+    "Sausages": "Alsatian sausages include knack (like hot dogs) and the white saucisse de Strasbourg. Try with mustard.",
+    "Gewürztraminer": "Aromatic white wine from Alsace — floral, spicy, slightly sweet. Gewürz means 'spice' in German.",
+    "Crémant d'Alsace": "Alsatian sparkling wine made like Champagne but at half the price. Perfect for Christmas Eve."
+  },
+  "zurich": {
+    "Fondue": "Melted cheese (Gruyère and Emmental) with white wine and garlic. Dip bread cubes with long forks. Don't drop your bread!",
+    "Raclette": "Melted cheese scraped onto potatoes, pickles, and onions. Raclette means 'to scrape' in French.",
+    "Rösti": "Crispy pan-fried shredded potatoes — Switzerland's hash browns. Often topped with cheese or an egg.",
+    "Swiss Chocolate": "Switzerland perfected milk chocolate. Try Sprüngli, Läderach, or Teuscher for the real deal.",
+    "Birchermüesli": "Invented in Zurich! Raw oats soaked overnight with yogurt, apple, nuts, and honey. The original overnight oats.",
+    "Bratwurst": "Grilled sausage, often veal in Zurich. Served with Bürli bread and mustard.",
+    "Glühwein": "Hot mulled wine (German: 'glow wine'). Spiced with cinnamon, cloves, and citrus. Christmas market essential.",
+    "Swiss Coffee": "Strong coffee culture. Try a Schümli (crema coffee) or Kafi Lutz (coffee with schnapps)."
+  },
+  "salzburg": {
+    "Kässpätzle": "Cheese spaetzle — soft egg noodles layered with melted cheese and topped with crispy fried onions. Austrian mac & cheese.",
+    "Kaiserschmarrn": "Emperor's mess — fluffy shredded pancake with powdered sugar and fruit compote. Franz Joseph's favorite dessert.",
+    "Mozartkugel": "Mozart ball — marzipan and nougat center coated in dark chocolate. Invented in Salzburg in 1890.",
+    "Wiener Schnitzel": "Breaded and fried veal cutlet, pounded thin. Must be veal to be 'Wiener' — pork is 'Schnitzel Wiener Art'.",
+    "Bosna": "Salzburg's street food — grilled bratwurst in a white bun with onions, curry powder, and mustard. Local legend.",
+    "Sachertorte": "Dense chocolate cake with apricot jam and dark chocolate glaze. Invented in Vienna but beloved everywhere.",
+    "Glühwein": "Hot mulled wine (German: 'glow wine'). Spiced with cinnamon, cloves, and citrus. Christmas market essential.",
+    "Austrian Beer": "Try Stiegl (Salzburg's local brewery since 1492) or Augustiner from the monastery."
+  },
+  "vienna": {
+    "Wiener Schnitzel": "Breaded and fried veal cutlet, pounded thin. Vienna's signature dish — always served with a lemon wedge.",
+    "Sachertorte": "Dense chocolate cake with apricot jam and dark chocolate glaze. Hotel Sacher and Demel still fight over the original recipe.",
+    "Apfelstrudel": "Apple strudel — spiced apples and raisins in paper-thin pastry. Order it warm with vanilla sauce or whipped cream.",
+    "Melange": "Viennese coffee similar to cappuccino — espresso with steamed milk and foam. The coffeehouse classic.",
+    "Käsekrainer": "Cheese-filled sausage that bursts when you bite it. Best from a Würstelstand (sausage stand) after midnight.",
+    "Döner": "Turkish kebab in flatbread with salad and sauce. Vienna's late-night staple — huge Turkish community here.",
+    "Glühwein": "Hot mulled wine (German: 'glow wine'). Spiced with cinnamon, cloves, and citrus. Christmas market essential.",
+    "Ottakringer": "Vienna's local beer since 1837. A crisp lager, perfect with schnitzel."
+  }
+}
