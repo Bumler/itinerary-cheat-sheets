@@ -1,0 +1,47 @@
+{
+  "brussels": {
+    "Grand Place": "Brussels' stunning central square, a UNESCO World Heritage site. The main market surrounds a giant Christmas tree with a light show every 30 minutes.",
+    "Place Ste-Catherine": "Cozy market near the old fish market with a Ferris wheel. Great for local Belgian food stalls and warming up with jenever.",
+    "Marché aux Poissons": "The old fish market square, connected to Ste-Catherine. Smaller, more intimate stalls with artisan crafts.",
+    "Place de Brouckère": "Large open square with the biggest Ferris wheel and ice skating rink. More commercial but great for kids.",
+    "Tour Noire": "By the Black Tower, one of Brussels' medieval remnants. A smaller, charming market with a historic backdrop.",
+    "Bruges Markt": "Bruges' main market square with the famous Belfry tower. Magical medieval setting — worth the day trip."
+  },
+  "paris": {
+    "Tuileries Garden": "Elegant market along the famous gardens near the Louvre. Ferris wheel views of the Eiffel Tower. Very Parisian.",
+    "La Villette": "Near your Airbnb! A more local, less touristy market in the 19th arrondissement with great food stalls.",
+    "Champs-Élysées": "The famous avenue transformed with Christmas lights and chalets. Touristy but undeniably beautiful.",
+    "Notre Dame": "Market on the Left Bank facing the cathedral (still under reconstruction). Intimate setting with river views.",
+    "Saint-Germain": "Upscale Left Bank neighborhood market. Sophisticated crafts and gourmet food in a chic setting.",
+    "Hôtel de Ville": "In front of Paris' ornate City Hall with an ice skating rink. Central location, beautifully lit."
+  },
+  "strasbourg": {
+    "Place du Château": "Next to the stunning Gothic cathedral. The oldest Christmas market in France, dating to 1570.",
+    "Cathedral Market": "Surrounding Strasbourg Cathedral with traditional Alsatian crafts. Look up at the famous astronomical clock.",
+    "Place Gutenberg": "Named after the printing press inventor who lived here. Cozy square with a giant Christmas tree.",
+    "Christkindelsmärik": "The original market — 'Christ Child Market' in Alsatian. Traditional crafts, bredele cookies, and vin chaud.",
+    "Petite France": "The fairytale half-timbered district along canals. Smaller stalls tucked into the cobblestone streets.",
+    "Place Kléber": "The main square with Strasbourg's tallest Christmas tree (100+ feet). Heart of the festivities."
+  },
+  "zurich": {
+    "Bahnhofstrasse (Lucy)": "Zurich's famous shopping street lit by 'Lucy' — 11,000 crystal lights overhead. Window shopping paradise.",
+    "Wienachtsdorf": "Christmas Village at Sechseläutenplatz by the opera house. 100+ wooden chalets and a giant tree.",
+    "Niederdorf": "The Old Town's winding streets filled with small stalls and cozy restaurants. Very local vibe.",
+    "Old Town": "Scattered throughout Zurich's historic center. Medieval streets decorated with lights and small markets.",
+    "Sechseläutenplatz": "The large square by Lake Zurich hosting the main Christmas village. Singing Christmas tree!"
+  },
+  "salzburg": {
+    "Cathedral Square": "Domplatz — the main market beneath Salzburg's baroque cathedral. Stunning mountain backdrop.",
+    "Residenzplatz": "Connected to Cathedral Square by the old Residenz palace. Traditional Austrian crafts and food.",
+    "Mirabellplatz": "By the Mirabell Palace gardens (Sound of Music fame!). Smaller, elegant market.",
+    "Hellbrunn Palace": "A bit outside town at the famous trick fountain palace. More spacious, family-friendly, with forest setting.",
+    "Getreidegasse": "Mozart's birthplace street with wrought-iron shop signs. Festive shopping in a medieval lane."
+  },
+  "vienna": {
+    "Rathausplatz": "The big one! In front of Vienna's Gothic City Hall. Ice skating, carnival rides, and hundreds of stalls.",
+    "Maria-Theresien-Platz": "Between the twin museums (Art History & Natural History). More upscale, less crowded, beautiful setting.",
+    "Stephansplatz": "Around St. Stephen's Cathedral in the heart of Vienna. Traditional market with the iconic Gothic spire above.",
+    "Belvedere Palace": "Romantic market at the baroque palace. Smaller crowds, stunning palace backdrop, great photo ops.",
+    "Spittelberg": "Charming cobblestone neighborhood with artisan crafts. Bohemian vibe, local favorite, great mulled wine."
+  }
+}

@@ -1,6 +1,8 @@
 import { accentClasses } from './accentClasses';
 import FoodItem from './FoodItem';
+import MarketItem from './MarketItem';
 import foodDescriptions from './data/foodDescriptions.json';
+import marketDescriptions from './data/marketDescriptions.json';
 
 export default function ItineraryCard({ data, route, isActive }) {
   const { city, country, flag, hotel, arrive, depart, days, markets, foods, gradient, footerEmojis, accentColor } = data;
@@ -8,6 +10,7 @@ export default function ItineraryCard({ data, route, isActive }) {
   const accent = accentClasses[accentColor] || accentClasses.amber;
   const cityKey = city.toLowerCase();
   const cityFoodDescriptions = foodDescriptions[cityKey] || {};
+  const cityMarketDescriptions = marketDescriptions[cityKey] || {};
 
   return (
     <div className={`w-screen min-h-screen md:w-[393px] md:min-h-[852px] bg-gradient-to-b ${gradient} p-3 md:p-4 font-sans relative overflow-hidden flex flex-col ${isActive ? '' : 'hidden md:flex'}`}>
@@ -115,10 +118,11 @@ export default function ItineraryCard({ data, route, isActive }) {
               </div>
               <div className="space-y-1.5">
                 {markets.map((market, idx) => (
-                  <div key={idx} className="flex items-start gap-2">
-                    <span className="text-emerald-400 text-xs mt-0.5">★</span>
-                    <p className="text-white text-[11px] font-medium leading-tight">{market}</p>
-                  </div>
+                  <MarketItem
+                    key={idx}
+                    name={market}
+                    description={cityMarketDescriptions[market] || `A wonderful Christmas market to explore!`}
+                  />
                 ))}
               </div>
             </div>
