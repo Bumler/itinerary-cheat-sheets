@@ -1,0 +1,77 @@
+{
+  "city": "Salzburg",
+  "country": "Austria",
+  "flag": "🇦🇹",
+  "gradient": "from-amber-800 via-amber-900 to-slate-900",
+  "accentColor": "amber",
+  "footerEmojis": ["🎻", "🏔️", "🍺", "🎆", "❄️"],
+  "hotel": {
+    "name": "Hotel zum Hirschen",
+    "type": "hotel"
+  },
+  "arrive": {
+    "date": "12/29",
+    "time": "3:26pm",
+    "type": "train",
+    "location": "Salzburg Hbf"
+  },
+  "depart": {
+    "date": "1/1",
+    "time": "11:07am",
+    "type": "train",
+    "location": "Salzburg Hbf"
+  },
+  "days": [
+    {
+      "dayNum": 1,
+      "date": "12/29",
+      "title": "Stroll & Eat",
+      "emoji": "🚶",
+      "activities": [
+        { "timeIcon": "☀️", "text": "Arrive and check-in" },
+        { "timeIcon": "🌙", "text": "Makartsteg → Getreidegasse → Cathedral Square" },
+        { "timeIcon": "🌃", "text": "Die Weisse or Gasthaus Hinterbrühl (Kässpätzle 🧀)" }
+      ]
+    },
+    {
+      "dayNum": 2,
+      "date": "12/30",
+      "title": "Bad Reichenhall",
+      "emoji": "🧖",
+      "activities": [
+        { "timeIcon": "🌅", "text": "🚂 Train to Bad Reichenhall. Coffee & walk the town" },
+        { "timeIcon": "☀️", "text": "Rupertus Therme thermal baths 🛁. Return to Salzburg" },
+        { "timeIcon": "🌙", "text": "Dinner at Gasthaus Goldgasse @8 🍽️" }
+      ]
+    },
+    {
+      "dayNum": 3,
+      "date": "12/31",
+      "title": "New Years Eve!",
+      "emoji": "🎆",
+      "activities": [
+        { "timeIcon": "🌅", "text": "☕ Cafe Crawl" },
+        { "timeIcon": "☀️", "text": "Funicular to Mönchsberg 🚃. Walk the ridge" },
+        { "timeIcon": "🌙", "text": "Dinner and wander" },
+        { "timeIcon": "🌃", "text": "🎆 Fireworks at the riverfront!" }
+      ]
+    }
+  ],
+  "markets": [
+    "Cathedral Square",
+    "Residenzplatz",
+    "Mirabellplatz",
+    "Hellbrunn Palace",
+    "Getreidegasse"
+  ],
+  "foods": [
+    { "emoji": "🧀", "name": "Kässpätzle" },
+    { "emoji": "🥟", "name": "Kaiserschmarrn" },
+    { "emoji": "🍫", "name": "Mozartkugel" },
+    { "emoji": "🥩", "name": "Wiener Schnitzel" },
+    { "emoji": "🌭", "name": "Bosna" },
+    { "emoji": "🍰", "name": "Sachertorte" },
+    { "emoji": "🍷", "name": "Glühwein" },
+    { "emoji": "🍺", "name": "Austrian Beer" }
+  ]
+}

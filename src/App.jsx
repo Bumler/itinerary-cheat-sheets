@@ -5,9 +5,10 @@ import brussels from './data/brussels.json';
 import paris from './data/paris.json';
 import strasbourg from './data/strasbourg.json';
 import zurich from './data/zurich.json';
+import salzburg from './data/salzburg.json';
 import html2canvas from 'html2canvas';
 
-const cities = [brussels, paris, strasbourg, zurich];
+const cities = [brussels, paris, strasbourg, zurich, salzburg];
 const { route } = config;
 
 export default function App() {
