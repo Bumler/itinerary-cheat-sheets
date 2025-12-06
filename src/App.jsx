@@ -6,9 +6,10 @@ import paris from './data/paris.json';
 import strasbourg from './data/strasbourg.json';
 import zurich from './data/zurich.json';
 import salzburg from './data/salzburg.json';
+import vienna from './data/vienna.json';
 import html2canvas from 'html2canvas';
 
-const cities = [brussels, paris, strasbourg, zurich, salzburg];
+const cities = [brussels, paris, strasbourg, zurich, salzburg, vienna];
 const { route } = config;
 
 export default function App() {
@@ -101,6 +102,7 @@ export default function App() {
                 : cityData.accentColor === 'emerald' ? 'bg-emerald-500'
                 : cityData.accentColor === 'sky' ? 'bg-sky-500'
                 : cityData.accentColor === 'cyan' ? 'bg-cyan-500'
+                : cityData.accentColor === 'violet' ? 'bg-violet-500'
                 : 'bg-amber-500'
                 : 'bg-white/30'
             }`}
@@ -122,6 +124,8 @@ export default function App() {
             ? 'bg-sky-500 hover:bg-sky-600'
             : cities[currentIndex].accentColor === 'cyan'
             ? 'bg-cyan-500 hover:bg-cyan-600'
+            : cities[currentIndex].accentColor === 'violet'
+            ? 'bg-violet-500 hover:bg-violet-600'
             : 'bg-amber-500 hover:bg-amber-600'
         } text-white font-semibold py-2 px-6 rounded-full transition-colors items-center gap-2`}
       >

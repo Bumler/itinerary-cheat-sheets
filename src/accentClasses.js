@@ -54,5 +54,13 @@ export const accentClasses = {
     textMuted: "text-cyan-200/60",
     badge: "bg-cyan-500",
     divider: "via-cyan-400"
+  },
+  violet: {
+    blob1: "bg-violet-500",
+    blob2: "bg-purple-400",
+    text: "text-violet-300",
+    textMuted: "text-violet-200/60",
+    badge: "bg-violet-500",
+    divider: "via-violet-400"
   }
 };

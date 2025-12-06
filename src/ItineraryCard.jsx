@@ -62,8 +62,8 @@ export default function ItineraryCard({ data, route, isActive }) {
           {/* Left Column - Itinerary */}
           <div className="flex-1 flex flex-col justify-between gap-[2px]">
             {days.map((day) => (
-              <div key={day.dayNum} className="bg-white/10 backdrop-blur-sm rounded-xl p-3 border border-white/10">
-                <div className="flex items-center gap-2 mb-2">
+              <div key={day.dayNum} className="bg-white/10 backdrop-blur-sm rounded-xl p-3 border border-white/10 flex-1 flex flex-col justify-center">
+                <div className={`flex items-center gap-2 ${day.activities.length > 0 ? 'mb-2' : ''}`}>
                   <span className={`${accent.badge} text-white text-[10px] font-bold px-2 py-0.5 rounded-full`}>
                     DAY {day.dayNum} · {day.date}
                   </span>

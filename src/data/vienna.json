@@ -1,0 +1,74 @@
+{
+  "city": "Vienna",
+  "country": "Austria",
+  "flag": "🇦🇹",
+  "gradient": "from-violet-800 via-purple-900 to-slate-900",
+  "accentColor": "violet",
+  "footerEmojis": ["🎭", "🥟", "🎻", "☕", "✈️"],
+  "hotel": {
+    "name": "The Guesthouse Vienna",
+    "type": "hotel"
+  },
+  "arrive": {
+    "date": "1/1",
+    "time": "1:50pm",
+    "type": "train",
+    "location": "Wien Hbf"
+  },
+  "depart": {
+    "date": "1/3",
+    "time": "7:20am",
+    "type": "plane",
+    "location": "VIE"
+  },
+  "days": [
+    {
+      "dayNum": 1,
+      "date": "1/1",
+      "title": "Final Markets",
+      "emoji": "🎄",
+      "activities": [
+        { "timeIcon": "☀️", "text": "Arrive and check-in" },
+        { "timeIcon": "🌙", "text": "Stephansplatz → Graben → Kohlmarkt → Hofburg" },
+        { "timeIcon": "🌃", "text": "Final Markets: Rathausplatz → Maria-Theresien-Platz 🎄" }
+      ]
+    },
+    {
+      "dayNum": 2,
+      "date": "1/2",
+      "title": "Schnitzel and a Show",
+      "activities": [
+        { "timeIcon": "🌅", "text": "☕ Slow morning at a Coffeehouse" },
+        { "timeIcon": "☀️", "text": "Walk along Danube Canal Promenade" },
+        { "timeIcon": "🌙", "text": "Late lunch at Schnitzelwirt @3 🥟" },
+        { "timeIcon": "🌃", "text": "Hansel und Gretel @7 🎭. Late night Döner 🥙" }
+      ]
+    },
+    {
+      "dayNum": 3,
+      "date": "1/3",
+      "title": "Farewell!",
+      "emoji": "✈️",
+      "activities": [
+        { "timeIcon": "💀", "text": "Drag ourselves to the airport" }
+      ]
+    }
+  ],
+  "markets": [
+    "Rathausplatz",
+    "Maria-Theresien-Platz",
+    "Stephansplatz",
+    "Belvedere Palace",
+    "Spittelberg"
+  ],
+  "foods": [
+    { "emoji": "🥟", "name": "Wiener Schnitzel" },
+    { "emoji": "🍰", "name": "Sachertorte" },
+    { "emoji": "🥐", "name": "Apfelstrudel" },
+    { "emoji": "☕", "name": "Melange" },
+    { "emoji": "🌭", "name": "Käsekrainer" },
+    { "emoji": "🥙", "name": "Döner" },
+    { "emoji": "🍷", "name": "Glühwein" },
+    { "emoji": "🍺", "name": "Ottakringer" }
+  ]
+}

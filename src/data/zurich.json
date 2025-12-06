@@ -29,8 +29,8 @@
       "emoji": "🫕",
       "activities": [
         { "timeIcon": "☀️", "text": "Walk to hotel, eat a snack" },
-        { "timeIcon": "🌙", "text": "Stroll Old Town. Fribourger Fondue Stübli @7 🫕" },
-        { "timeIcon": "🌃", "text": "Bahnhofstrasse Lights Walk (\"Lucy\") ✨" }
+        { "timeIcon": "🌙", "text": "Stroll through Old Town" },
+        { "timeIcon": "🌃", "text": "Bahnhofstrasse Lights (\"Lucy\") ✨ Drinks at Bar am Wasser" }
       ]
     },
     {
@@ -39,9 +39,9 @@
       "title": "Spa Day!!",
       "emoji": "🧖",
       "activities": [
-        { "timeIcon": "🌅", "text": "Morning walk around town" },
+        { "timeIcon": "🌅", "text": "Morning walk. Climb Grossmünster tower" },
         { "timeIcon": "☀️", "text": "Thermalbad & Spa Zürich @2:30. Rooftop sunset 🌅" },
-        { "timeIcon": "🌙", "text": "Late night dinner 🍽️" }
+        { "timeIcon": "🌙", "text": "Fribourger Fondue Stübli 🫕" }
       ]
     },
     {
@@ -51,8 +51,9 @@
       "emoji": "🏔️",
       "activities": [
         { "timeIcon": "🌅", "text": "🏃 Run OR Walk Lake Zurich. Coffee at Bürkliplatz ☕" },
-        { "timeIcon": "☀️", "text": "Funicular to Polyterrasse 🚃. Zürich West. Visit Viadukt and Frau Gerolds Garten." },
-        { "timeIcon": "🌙", "text": "Late night dinner 🍽️" }
+        { "timeIcon": "☀️", "text": "Funicular to Polyterrasse 🚃. Zürich West & Viadukt" },
+        { "timeIcon": "🌙", "text": "Dinner at Sapa Canteen 🍜" },
+        { "timeIcon": "🌃", "text": "Hang out at Frau Gerolds Garten 🍻" }
       ]
     }
   ],

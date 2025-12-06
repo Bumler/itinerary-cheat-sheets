@@ -40,7 +40,6 @@
       "emoji": "🏰",
       "activities": [
         { "timeIcon": "🌅", "text": "Opens @9:30" },
-        { "timeIcon": "☀️", "text": "Thunder Mountain → Hyperspace → Pirates → Ratatouille" },
         { "timeIcon": "🌙", "text": "Eat at Disney", "or": "Krügen Crêperie" }
       ]
     },
