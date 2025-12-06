@@ -4,7 +4,7 @@ import MarketItem from './MarketItem';
 import foodDescriptions from './data/foodDescriptions.json';
 import marketDescriptions from './data/marketDescriptions.json';
 
-export default function ItineraryCard({ data, route, isActive }) {
+export default function ItineraryCard({ data, route, isActive, onCityClick }) {
   const { city, country, flag, hotel, arrive, depart, days, markets, foods, gradient, footerEmojis, accentColor } = data;
   
   const accent = accentClasses[accentColor] || accentClasses.amber;
@@ -35,7 +35,12 @@ export default function ItineraryCard({ data, route, isActive }) {
         <p className={`${accent.textMuted} text-xs tracking-wide mb-1.5 md:mb-3`}>
           {route.map((r, i) => (
             <span key={r}>
-              <span className={r === city ? `${accent.text} font-semibold` : ""}>{r}</span>
+              <span 
+                className={`${r === city ? `${accent.text} font-semibold` : "hover:text-white/80"} cursor-pointer transition-colors`}
+                onClick={() => onCityClick && onCityClick(r)}
+              >
+                {r}
+              </span>
               {i < route.length - 1 && <span className="mx-1">→</span>}
             </span>
           ))}

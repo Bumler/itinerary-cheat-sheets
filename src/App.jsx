@@ -50,6 +50,10 @@ export default function App() {
               data={cityData}
               route={route}
               isActive={index === currentIndex}
+              onCityClick={(cityName) => {
+                const cityIndex = cities.findIndex(c => c.city === cityName);
+                if (cityIndex !== -1) setCurrentIndex(cityIndex);
+              }}
             />
           </div>
         ))}
