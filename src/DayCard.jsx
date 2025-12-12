@@ -1,5 +1,16 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { createPortal } from 'react-dom';
+
+// Sort by time of day: 🌅 morning → ☀️ afternoon → 🌙 evening
+const timeOrder = { '🌅': 0, '☀️': 1, '🌙': 2 };
+const sortByTime = (items) => {
+  if (!items) return [];
+  return [...items].sort((a, b) => {
+    const orderA = timeOrder[a.timeIcon] ?? 1;
+    const orderB = timeOrder[b.timeIcon] ?? 1;
+    return orderA - orderB;
+  });
+};
 
 export default function DayCard({ day, accent, details, city }) {
   const [showDetails, setShowDetails] = useState(false);
@@ -15,6 +26,11 @@ export default function DayCard({ day, accent, details, city }) {
       document.body.style.overflow = '';
     };
   }, [showDetails]);
+
+  // Sort recommendations chronologically
+  const sortedRecommendations = useMemo(() => {
+    return sortByTime(details?.recommendations);
+  }, [details?.recommendations]);
 
   const closeModal = () => {
     setShowDetails(false);
@@ -64,10 +80,10 @@ export default function DayCard({ day, accent, details, city }) {
           </div>
         )}
         
-        {details.recommendations && details.recommendations.length > 0 && (
+        {sortedRecommendations && sortedRecommendations.length > 0 && (
           <div className="space-y-3">
             <h4 className="text-white/60 text-xs uppercase tracking-wider">Recommendations</h4>
-            {details.recommendations.map((rec, idx) => (
+            {sortedRecommendations.map((rec, idx) => (
               <a
                 key={idx}
                 href={`https://www.google.com/maps/search/${encodeURIComponent(rec.alias || (rec.name + ' ' + city))}`}

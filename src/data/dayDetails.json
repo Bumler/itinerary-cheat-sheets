@@ -389,5 +389,209 @@
         }
       ]
     }
+  ],
+  "strasbourg": [
+    {
+      "dayNum": 1,
+      "description": "Arrive by train at 11:54am! Uber to the Airbnb on Rue du Coudrier, drop bags, then dive into Christmas markets. Start at Place du Château → Cathedral → Gutenberg, then explore Petite France at night. Markets close around 8-9pm.",
+      "recommendations": [
+        {
+          "name": "La Corde à Linge",
+          "alias": "La Corde a Linge Strasbourg",
+          "description": "Casual lunch spot in Petite France; spatzle, burgers, salads. Big waterfront terrace — grab a seat by the canal. Serves all day.",
+          "timeIcon": "☀️",
+          "foodIcon": "🍽️"
+        },
+        {
+          "name": "Le Gruber",
+          "alias": "Le Gruber Strasbourg",
+          "description": "Traditional brasserie near the Cathedral; quick flammekueche, cheesy spatzle, choucroute. Red gingham tablecloths, 16th-century building. Open all day.",
+          "timeIcon": "☀️",
+          "foodIcon": "🥧"
+        },
+        {
+          "name": "Binchstub",
+          "alias": "Binchstub tarte flambee Strasbourg",
+          "description": "Local favorite for tarte flambée — thin crust, farmhouse ingredients. Multiple locations (Gayot, Broglie). Open late, casual vibes.",
+          "timeIcon": "🌙",
+          "foodIcon": "🥧"
+        },
+        {
+          "name": "La Fignette",
+          "alias": "La Fignette Petite France Strasbourg",
+          "description": "Cozy winstub in Petite France; wood-fired flammekueche, Munster version is excellent. Reserve ahead!",
+          "timeIcon": "🌙",
+          "foodIcon": "🥧"
+        },
+        {
+          "name": "Café Bretelles",
+          "alias": "Cafe Bretelles Strasbourg",
+          "description": "Best specialty coffee in town (Petite France or Krutenau locations). Homemade Twix and carrot cake. Original third-wave shop since 2014.",
+          "timeIcon": "☀️",
+          "foodIcon": "☕"
+        },
+        {
+          "name": "Vin Chaud & Bredele",
+          "description": "At any market! Hot spiced wine + Alsatian Christmas cookies. Look for Mireille Oster's pain d'épices stall.",
+          "timeIcon": "🌙",
+          "foodIcon": "🍷"
+        }
+      ]
+    },
+    {
+      "dayNum": 2,
+      "description": "Walking and eating day! Morning: Grande Île loop, climb the Cathedral for views. Afternoon: grocery shopping. Evening: Food Tour at 5pm — let someone else show you the good stuff.",
+      "reservations": [
+        {
+          "time": "5:00pm",
+          "name": "Food Tour",
+          "address": "TBD",
+          "description": "Alsatian food tour! 🍴"
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Pâtisserie Christian",
+          "alias": "Patisserie Christian Strasbourg",
+          "description": "Legendary pâtisserie; gorgeous tea room, incredible kougelhopf and hot chocolate. Feel like royalty.",
+          "timeIcon": "🌅",
+          "foodIcon": "🥐"
+        },
+        {
+          "name": "Thierry Mulhaupt",
+          "alias": "Thierry Mulhaupt Strasbourg",
+          "description": "Master pâtissier near the fish market; famous kougelhopf, seasonal pastries. Local favorite.",
+          "timeIcon": "🌅",
+          "foodIcon": "🥐"
+        },
+        {
+          "name": "Maison Naegel",
+          "alias": "Maison Naegel Strasbourg",
+          "description": "Charming bakery on Rue des Orfèvres; tourte and breads sell out fast. Order ahead!",
+          "timeIcon": "🌅",
+          "foodIcon": "🥐"
+        },
+        {
+          "name": "Coffee Stub",
+          "alias": "Coffee Stub Strasbourg",
+          "description": "Riverside specialty coffee; Scandinavian vibes, rotating roasters (Berlin's Five Elephant). Pretzel cake exists here.",
+          "timeIcon": "☀️",
+          "foodIcon": "☕"
+        },
+        {
+          "name": "Le Tigre",
+          "alias": "Brasserie Le Tigre Strasbourg",
+          "description": "Historic brewery since 1795; craft beer on-site + great tarte flambée. Huge Art Deco dome, biergarten vibes.",
+          "timeIcon": "☀️",
+          "foodIcon": "🍺"
+        }
+      ]
+    },
+    {
+      "dayNum": 3,
+      "description": "Day trip to Colmar! Train is ~35 min. Explore Little Venice, walk all 5 Christmas markets, warm up with choucroute. Head back by 10pm.",
+      "recommendations": [
+        {
+          "name": "Winstub Schwendi",
+          "alias": "Winstub Schwendi Colmar",
+          "description": "Casual winstub in the center; big portions, great beer and wine. Rösti is massive. Walk-in friendly, no fuss.",
+          "timeIcon": "🌙",
+          "foodIcon": "🍽️"
+        },
+        {
+          "name": "La Soi",
+          "alias": "Restaurant La Soi Colmar",
+          "description": "Tiny tarte flambée specialist — that's all they do, and they do it perfectly. Cheap, quick, always packed. Walk-ins welcome.",
+          "timeIcon": "🌙",
+          "foodIcon": "🥧"
+        },
+        {
+          "name": "Brasserie des Tanneurs",
+          "alias": "Brasserie des Tanneurs Colmar",
+          "description": "Friendly brasserie with a gorgeous facade; Alsatian classics, casual vibes. Good walk-in option near Little Venice.",
+          "timeIcon": "🌙",
+          "foodIcon": "🍽️"
+        },
+        {
+          "name": "Marché Couvert",
+          "alias": "Marche Couvert Colmar",
+          "description": "Beautiful covered market; fresh produce, cheeses, wines. La Terrasse du Marché inside for tarte flambée + Crémant.",
+          "timeIcon": "☀️",
+          "foodIcon": "🧀"
+        },
+        {
+          "name": "Les Délices des Tanneurs",
+          "alias": "Les Delices des Tanneurs Colmar bakery",
+          "description": "Charming bakery in Old Town; fresh pastries and bread for breakfast. Daily stop.",
+          "timeIcon": "🌅",
+          "foodIcon": "🥐"
+        },
+        {
+          "name": "Gourmet Market",
+          "alias": "Colmar Gourmet Christmas Market",
+          "description": "Elevated Christmas market food! Local chefs serve oysters, truffle risotto, foie gras. Ferris wheel right next to it.",
+          "timeIcon": "☀️",
+          "foodIcon": "🦪"
+        },
+        {
+          "name": "Pain d'Épices",
+          "description": "Find Mireille Oster's stall at Place de l'Ancienne Douane — legendary Alsatian gingerbread.",
+          "timeIcon": "☀️",
+          "foodIcon": "🍪"
+        }
+      ]
+    },
+    {
+      "dayNum": 4,
+      "description": "Christmas Eve! Pick up pastries early (many shops close by afternoon). Morning run if you want. Walk through Neustadt → Christkindelsmärik. Markets close at 6pm, then relax at the Airbnb.",
+      "recommendations": [
+        {
+          "name": "Plein la Moustache",
+          "alias": "Plein la Moustache bakery Strasbourg",
+          "description": "Near Petite France; amazing cinnamon rolls, puff pastry brioches, babka. Grab breakfast for the Airbnb.",
+          "timeIcon": "🌅",
+          "foodIcon": "🥐"
+        },
+        {
+          "name": "La Maison du Kougelhopf",
+          "alias": "Patisserie Buhler Strasbourg kougelhopf",
+          "description": "Specialists in kougelhopf — fluffy, powdered sugar, just the right raisins. The name says it all.",
+          "timeIcon": "🌅",
+          "foodIcon": "🎂"
+        },
+        {
+          "name": "Mama Bubbele",
+          "alias": "Mama Bubbele Strasbourg",
+          "description": "Modern tarte flambée spot in Krutenau; organic ingredients, family recipe. Gluten-free and vegan options! Waterfront terrace.",
+          "timeIcon": "☀️",
+          "foodIcon": "🥧"
+        },
+        {
+          "name": "Le Tire-Bouchon",
+          "alias": "Le Tire-Bouchon winstub Strasbourg",
+          "description": "Classic winstub near the Cathedral; choucroute, baeckeoffe, cozy private rooms. Good for Christmas Eve vibes.",
+          "timeIcon": "🌙",
+          "foodIcon": "🍽️"
+        },
+        {
+          "name": "Christkindelsmärik",
+          "description": "THE Christmas market — oldest in France (1570!). Place Broglie and Place Kléber. Final chance before it closes!",
+          "timeIcon": "☀️",
+          "foodIcon": "🎄"
+        }
+      ]
+    },
+    {
+      "dayNum": 5,
+      "description": "Christmas Day! Most things will be closed. Cozy Airbnb day — you have groceries. Enjoy the quiet streets if you venture out.",
+      "recommendations": [
+        {
+          "name": "Quiet Day",
+          "description": "Most restaurants and shops closed. Enjoy your groceries, cook something simple, and rest up before Zurich tomorrow!",
+          "timeIcon": "☀️",
+          "foodIcon": "🏠"
+        }
+      ]
+    }
   ]
 }
