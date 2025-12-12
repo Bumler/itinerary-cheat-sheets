@@ -775,6 +775,13 @@
       ],
       "recommendations": [
         {
+          "name": "Ratio Coffee",
+          "alias": "Ratio Coffee Salzburg specialty",
+          "description": "Best specialty coffee in Salzburg! Melbourne-style, Linzergasse location. Solar-powered roastery, natural wines too.",
+          "timeIcon": "🌅",
+          "foodIcon": "☕"
+        },
+        {
           "name": "Café-Restaurant Reber",
           "alias": "Reber Cafe Bad Reichenhall Mozart chocolate",
           "description": "Historic café (since 1940) at the famous Mozart chocolate makers! Cakes, goulash soup, apple strudel. Great pit stop.",
@@ -782,18 +789,25 @@
           "foodIcon": "☕"
         },
         {
+          "name": "Bürgerbräu",
+          "alias": "Burgerbrau Bad Reichenhall Bavarian brewery",
+          "description": "Old brewery where locals meet; traditional Bavarian dishes, hearty beer. Rich history — politicos, peasants & salt miners all drank here!",
+          "timeIcon": "☀️",
+          "foodIcon": "🍺"
+        },
+        {
+          "name": "Restaurant Salin",
+          "alias": "Restaurant Salin Bad Reichenhall",
+          "description": "Modern spot in a former brewery; soaring ceilings, innovative regional cuisine. Organic dishes, good veggie options, cocktails. Chill vibes.",
+          "timeIcon": "☀️",
+          "foodIcon": "🥗"
+        },
+        {
           "name": "Rupertus Therme",
           "alias": "Rupertus Therme Bad Reichenhall spa",
           "description": "Alpine thermal baths complex; salt-water pools, saunas, relaxation areas. Perfect winter day activity.",
           "timeIcon": "☀️",
           "foodIcon": "🧖"
-        },
-        {
-          "name": "Ratio Coffee",
-          "alias": "Ratio Coffee Salzburg specialty",
-          "description": "Best specialty coffee in Salzburg! Melbourne-style, Linzergasse location. Solar-powered roastery, natural wines too.",
-          "timeIcon": "☀️",
-          "foodIcon": "☕"
         },
         {
           "name": "Gasthaus Goldgasse",
@@ -809,16 +823,37 @@
       "description": "New Year's Eve! Café crawl morning, funicular to Mönchsberg for ridge walk. Dinner then wander the Domplatz area for live music. Gun salutes at 4pm, Cathedral bells & fortress fireworks at midnight!",
       "recommendations": [
         {
+          "name": "Café Tomaselli",
+          "alias": "Cafe Tomaselli Salzburg historic coffeehouse",
+          "description": "300-year-old coffeehouse! Austria's oldest café, old-world pastries & charm. Classic Salzburg experience.",
+          "timeIcon": "🌅",
+          "foodIcon": "☕"
+        },
+        {
+          "name": "Café Bazar",
+          "alias": "Cafe Bazar Salzburg riverside",
+          "description": "Elegant riverside café; calm, great for slow mornings. Beautiful terrace overlooking the Salzach.",
+          "timeIcon": "🌅",
+          "foodIcon": "☕"
+        },
+        {
           "name": "Kaffee Alchemie",
           "alias": "Kaffee Alchemie Salzburg specialty coffee",
-          "description": "Run by a barista world championship judge! Specialty coffee, Aeropress focus. River-facing seats, third-wave vibes.",
+          "description": "Tiny artisanal coffee bar; excellent pour-over, very local. Run by a barista world championship judge!",
           "timeIcon": "🌅",
           "foodIcon": "☕"
         },
         {
           "name": "220 Grad",
           "alias": "220 Grad Kaffeerosterei Salzburg",
-          "description": "Local roaster with excellent café near old town. French press, fancy brewing methods, homemade cakes. Introduced specialty coffee to Salzburg!",
+          "description": "Specialty roaster; best espresso in Salzburg, modern local vibe. French press, homemade cakes. Introduced specialty coffee to the city!",
+          "timeIcon": "🌅",
+          "foodIcon": "☕"
+        },
+        {
+          "name": "Café Fürst",
+          "alias": "Cafe Konditorei Furst Salzburg Alter Markt",
+          "description": "Inventor of Mozartkugel! Quieter than Tomaselli across the square, great cakes & coffee upstairs.",
           "timeIcon": "🌅",
           "foodIcon": "☕"
         },
