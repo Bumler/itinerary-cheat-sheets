@@ -37,7 +37,7 @@
       "dayNum": 2,
       "date": "12/22",
       "title": "Walking & Food",
-      "emoji": "🚶",
+      "emoji": "",
       "activities": [
         { "timeIcon": "🌅", "text": "Grande Île Loop. Climb Cathedral." },
         { "timeIcon": "☀️", "text": "Grocery Shopping 🛒" },
@@ -59,7 +59,7 @@
       "dayNum": 4,
       "date": "12/24",
       "title": "Christmas Eve",
-      "emoji": "🎅",
+      "emoji": "",
       "activities": [
         { "timeIcon": "🌅", "text": "Pick up pastries 🥐 + Run 🏃" },
         { "timeIcon": "☀️", "text": "Neustadt → Christkindelsmärik 🚶" },
@@ -70,7 +70,7 @@
       "dayNum": 5,
       "date": "12/25",
       "title": "Christmas",
-      "emoji": "🎁",
+      "emoji": "🎅",
       "activities": [
       ]
     }

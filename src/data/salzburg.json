@@ -37,7 +37,7 @@
       "dayNum": 2,
       "date": "12/30",
       "title": "Bad Reichenhall",
-      "emoji": "🧖",
+      "emoji": "",
       "activities": [
         { "timeIcon": "🌅", "text": "🚂 Train to Bad Reichenhall. Coffee & walk the town" },
         { "timeIcon": "☀️", "text": "Rupertus Therme thermal baths 🛁. Return to Salzburg" },
@@ -48,7 +48,7 @@
       "dayNum": 3,
       "date": "12/31",
       "title": "New Years Eve!",
-      "emoji": "🎆",
+      "emoji": "",
       "activities": [
         { "timeIcon": "🌅", "text": "☕ Cafe Crawl" },
         { "timeIcon": "☀️", "text": "Funicular to Mönchsberg 🚃. Walk the ridge" },
