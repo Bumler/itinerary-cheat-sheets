@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { createPortal } from 'react-dom';
 
-export default function MarketItem({ name, description }) {
+export default function MarketItem({ name, description, city }) {
   const [showTooltip, setShowTooltip] = useState(false);
 
   const openTooltip = () => {
@@ -11,6 +11,8 @@ export default function MarketItem({ name, description }) {
   const closeTooltip = () => {
     setShowTooltip(false);
   };
+
+  const mapsUrl = `https://www.google.com/maps/search/${encodeURIComponent(name + ' Christmas Market ' + city)}`;
 
   const modal = showTooltip && createPortal(
     <div 
@@ -25,7 +27,15 @@ export default function MarketItem({ name, description }) {
           <span className="text-3xl">🎄</span>
           <h3 className="text-white font-bold text-xl">{name}</h3>
         </div>
-        <p className="text-white/80 text-base leading-relaxed">{description}</p>
+        <p className="text-white/80 text-base leading-relaxed mb-3">{description}</p>
+        <a 
+          href={mapsUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 text-emerald-400 hover:text-emerald-300 text-sm transition-colors"
+        >
+          <span>📍</span> View on Google Maps
+        </a>
         <button 
           onClick={closeTooltip}
           className="mt-4 w-full bg-white/10 hover:bg-white/20 text-white text-sm py-2.5 rounded-lg transition-colors"

@@ -52,18 +52,18 @@
         { "timeIcon": "🌅", "text": "Le Marais: Place des Vosges & Rue des Rosiers" },
         { "timeIcon": "☀️", "text": "Île Saint-Louis 🍫, Notre Dame" },
         { "timeIcon": "🌙", "text": "Left Bank + Tuileries Market 🎄" },
-        { "timeIcon": "🌃", "text": "Eiffel Sparkle ✨ + Le Relais de l'Entrecôte 🥩🍟" }
+        { "timeIcon": "🌃", "text": "Eiffel Sparkle ✨ + Le Clarence @8:30 ⭐" }
       ]
     },
     {
       "dayNum": 4,
       "date": "12/20",
-      "title": "Fancy Lunch",
-      "emoji": "🍽️",
+      "title": "Rugby!",
+      "emoji": "🏉",
       "activities": [
         { "timeIcon": "🌅", "text": "🏃 Run", "or": "Walk La Coulée Verte (Highline)" },
-        { "timeIcon": "☀️", "text": "Lunch at Guy Savoy ⭐" },
-        { "timeIcon": "🌙", "text": "Nap + Christmas Markets 🎄" }
+        { "timeIcon": "☀️", "text": "Rugby at Stade de France @2:30 🏉" },
+        { "timeIcon": "🌙", "text": "Le Relais de l'Entrecôte 🥩🍟" }
       ]
     }
   ],

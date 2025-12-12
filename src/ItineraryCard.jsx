@@ -25,10 +25,15 @@ export default function ItineraryCard({ data, route, isActive, onCityClick }) {
             <span className="text-2xl">{flag}</span>
             <h1 className="text-3xl font-bold text-white tracking-tight">{city}</h1>
           </div>
-          <div className="bg-white/5 rounded-lg px-2 py-1 flex items-center gap-1.5">
+          <a 
+            href={`https://www.google.com/maps/search/${encodeURIComponent(hotel.name + ' ' + city)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white/5 rounded-lg px-2 py-1 flex items-center gap-1.5 hover:bg-white/10 transition-colors"
+          >
             <span className="text-xs">{hotel.type === 'airbnb' ? '🏠' : '🏨'}</span>
             <p className="text-white/80 text-[10px]">{hotel.name}</p>
-          </div>
+          </a>
         </div>
         
         {/* Route */}
@@ -127,6 +132,7 @@ export default function ItineraryCard({ data, route, isActive, onCityClick }) {
                     key={idx}
                     name={market}
                     description={cityMarketDescriptions[market] || `A wonderful Christmas market to explore!`}
+                    city={city}
                   />
                 ))}
               </div>

@@ -2,8 +2,8 @@
   "city": "Salzburg",
   "country": "Austria",
   "flag": "🇦🇹",
-  "gradient": "from-amber-800 via-amber-900 to-slate-900",
-  "accentColor": "amber",
+  "gradient": "from-violet-800 via-purple-900 to-slate-900",
+  "accentColor": "violet",
   "footerEmojis": ["🎻", "🏔️", "🍺", "🎆", "❄️"],
   "hotel": {
     "name": "Hotel zum Hirschen",
