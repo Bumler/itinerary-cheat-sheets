@@ -228,7 +228,7 @@
         {
           "time": "7:00pm",
           "name": "Bistrot Rougemont",
-          "address": "Rue Rougemont, Paris 9",
+          "address": "10 Rue Rougemont, 75009 Paris",
           "description": "Classic Parisian bistrot."
         }
       ],
@@ -239,6 +239,13 @@
           "description": "Artisan bakery — famous orange blossom brioche, incredible babka, buttery croissants.",
           "timeIcon": "🌅",
           "foodIcon": "⭐"
+        },
+        {
+          "name": "Banh Me Tender",
+          "alias": "Banh Me Tender Paris",
+          "description": "Vietnamese banh mi and bo bun near the canal; fresh baguettes, great value (~€10).",
+          "timeIcon": "☀️",
+          "foodIcon": "🥖"
         },
         {
           "name": "Best Tofu",
@@ -279,7 +286,7 @@
         {
           "time": "8:30pm",
           "name": "Le Clarence",
-          "address": "31 Avenue Franklin D. Roosevelt, Paris 8",
+          "address": "31 Av. Franklin Delano Roosevelt, 75008 Paris, France",
           "description": "Two Michelin stars. Dress nicely!"
         }
       ],
@@ -317,13 +324,7 @@
           "timeIcon": "☀️",
           "foodIcon": "⭐"
         },
-        {
-          "name": "Parcelles",
-          "alias": "Parcelles restaurant Paris 3rd",
-          "description": "Perfect bistrot à vins in northern Marais; exceptional wine list, refined French cooking. Reservations essential.",
-          "timeIcon": "🌙",
-          "foodIcon": "⭐"
-        },
+
         {
           "name": "Little Red Door",
           "alias": "Little Red Door cocktail bar Paris",
