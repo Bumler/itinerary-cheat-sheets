@@ -1,8 +1,10 @@
 import { accentClasses } from './accentClasses';
 import FoodItem from './FoodItem';
 import MarketItem from './MarketItem';
+import DayCard from './DayCard';
 import foodDescriptions from './data/foodDescriptions.json';
 import marketDescriptions from './data/marketDescriptions.json';
+import dayDetails from './data/dayDetails.json';
 
 export default function ItineraryCard({ data, route, isActive, onCityClick }) {
   const { city, country, flag, hotel, arrive, depart, days, markets, foods, gradient, footerEmojis, accentColor } = data;
@@ -11,6 +13,7 @@ export default function ItineraryCard({ data, route, isActive, onCityClick }) {
   const cityKey = city.toLowerCase();
   const cityFoodDescriptions = foodDescriptions[cityKey] || {};
   const cityMarketDescriptions = marketDescriptions[cityKey] || {};
+  const cityDayDetails = dayDetails[cityKey] || [];
 
   return (
     <div className={`w-screen min-h-screen md:w-[393px] md:min-h-[852px] bg-gradient-to-b ${gradient} p-3 md:p-4 font-sans relative overflow-hidden flex flex-col ${isActive ? '' : 'hidden md:flex'}`}>
@@ -78,44 +81,18 @@ export default function ItineraryCard({ data, route, isActive, onCityClick }) {
         <div className="flex gap-2 md:gap-3 items-stretch flex-1">
           {/* Left Column - Itinerary */}
           <div className="flex-1 flex flex-col justify-between gap-[2px]">
-            {days.map((day) => (
-              <div key={day.dayNum} className="bg-white/10 backdrop-blur-sm rounded-xl p-3 border border-white/10 flex-1 flex flex-col justify-center">
-                <div className={`flex items-center gap-2 ${day.activities.length > 0 ? 'mb-2' : ''}`}>
-                  <span className={`${accent.badge} text-white text-[10px] font-bold px-2 py-0.5 rounded-full`}>
-                    DAY {day.dayNum} · {day.date}
-                  </span>
-                  <span className="text-white font-semibold text-sm">
-                    {day.title} {day.emoji}
-                  </span>
-                </div>
-                <div className="space-y-1 text-xs">
-                  {day.activities.map((activity, idx) => (
-                    <div key={idx} className="flex gap-2">
-                      <span className={accent.text}>{activity.timeIcon}</span>
-                      <div className="text-white/90">
-                        {activity.alternatives ? (
-                          <div className="space-y-1">
-                            <p>{activity.text}</p>
-                            {activity.alternatives.map((alt, altIdx) => (
-                              <p key={altIdx}>or {alt}</p>
-                            ))}
-                          </div>
-                        ) : activity.or ? (
-                          <p>{activity.text} <span className="text-white/50">OR</span> {activity.or}</p>
-                        ) : (
-                          <>
-                            <p>{activity.text}</p>
-                            {activity.subtext && (
-                              <span className="text-white/50 text-[10px]">{activity.subtext}</span>
-                            )}
-                          </>
-                        )}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            ))}
+            {days.map((day) => {
+              const details = cityDayDetails.find(d => d.dayNum === day.dayNum);
+              return (
+                <DayCard
+                  key={day.dayNum}
+                  day={day}
+                  accent={accent}
+                  details={details}
+                  city={city}
+                />
+              );
+            })}
           </div>
 
           {/* Right Column - Info Panels */}

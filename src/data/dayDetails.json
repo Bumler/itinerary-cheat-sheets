@@ -1,0 +1,392 @@
+{
+  "brussels": [
+    {
+      "dayNum": 1,
+      "description": "Arrive from the flight. We'll spend the afternoon exploring the neighborhood near our hotel and the evening crawling through Christmas markets. The Christmas markets can be completed in one big loop in Brussels so we should plan to spend most of the night there!",
+      "recommendations": [
+        {
+          "name": "Nüetnigenough",
+          "description": "Cozy Belgian bistro; famous shrimp croquettes and stoofvlees. Local favorite.",
+          "timeIcon": "☀️",
+          "foodIcon": "🍽️"
+        },
+        {
+          "name": "Le Fin de Siècle",
+          "description": "No-frills, packed with locals; huge portions of Belgian classics. Cash only.",
+          "timeIcon": "☀️",
+          "foodIcon": "🍽️"
+        },
+        {
+          "name": "Le Cirio",
+          "description": "Historic Art Nouveau café from 1886; half-and-half (champagne + white wine) is the move.",
+          "timeIcon": "☀️",
+          "foodIcon": "☕"
+        },
+        {
+          "name": "Dandoy",
+          "description": "Brussels' legendary speculoos bakery since 1829; try a warm waffle or grab cookies for later.",
+          "timeIcon": "☀️",
+          "foodIcon": "🥐"
+        }
+      ]
+    },
+    {
+      "dayNum": 2,
+      "description": "Chocolate and jazz day! Start with a chocolate tasting in the beautiful Galeries Saint-Hubert, explore the city center, then end with live jazz near Grand Place.",
+      "reservations": [
+        {
+          "time": "10:30am",
+          "name": "Chocolate Sommelier Experience",
+          "address": "Galerie de la Reine 25, Brussels",
+          "description": "Tasting ends ~1pm."
+        },
+        {
+          "time": "8:30pm",
+          "name": "Music Village",
+          "address": "Rue des Pierres 50, Brussels",
+          "description": "Jazz club near Grand Place. Eat before — food is pricey inside."
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "L'Ogenblik",
+          "description": "Classic Brussels bistro since 1969; Belgian-French dishes, charming interior.",
+          "timeIcon": "☀️",
+          "foodIcon": "🍽️"
+        },
+        {
+          "name": "Pasta Divina",
+          "description": "Family-run in the Galleries; fresh handmade pasta. Simple, perfect.",
+          "timeIcon": "☀️",
+          "foodIcon": "🍝"
+        },
+        {
+          "name": "Yaki",
+          "description": "Thai-Vietnamese near Grand Place; best pad thai in Brussels. Cash only.",
+          "timeIcon": "☀️",
+          "foodIcon": "🍜"
+        },
+        {
+          "name": "Umaido",
+          "description": "Authentic Japanese ramen; rich broth, fast service.",
+          "timeIcon": "☀️",
+          "foodIcon": "🍜"
+        },
+        {
+          "name": "Aux Armes de Bruxelles",
+          "description": "Institution since 1921; mussels, waterzooi, white tablecloths.",
+          "timeIcon": "🌙",
+          "foodIcon": "🍽️"
+        },
+        {
+          "name": "Bia Mara",
+          "description": "Best fish & chips in Brussels; quick, affordable, delicious.",
+          "timeIcon": "🌙",
+          "foodIcon": "🐟"
+        },
+        {
+          "name": "Ballekes",
+          "description": "Casual spot famous for Belgian meatballs (boulets); budget-friendly.",
+          "timeIcon": "🌙",
+          "foodIcon": "🍽️"
+        }
+      ]
+    },
+    {
+      "dayNum": 3,
+      "description": "Day trip to Bruges! Train from Brussel-Centraal to Brugge (~1 hour). The medieval city is compact and walkable — canals, cobblestones, and Christmas magic.",
+      "recommendations": [
+        {
+          "name": "House of Waffles",
+          "description": "Sweet and savory waffles.",
+          "timeIcon": "☀️",
+          "foodIcon": "⭐"
+        },
+        {
+          "name": "The Old Chocolate House",
+          "description": "Cute café — great hot chocolate.",
+          "timeIcon": "☀️",
+          "foodIcon": "⭐"
+        },
+        {
+          "name": "The Chocolate Line",
+          "description": "Unique chocolate flavors.",
+          "timeIcon": "☀️",
+          "foodIcon": "⭐"
+        },
+        {
+          "name": "2be Bar (The Beerwall)",
+          "description": "Bar with a wall of 1000+ Belgian beers.",
+          "timeIcon": "☀️",
+          "foodIcon": "⭐"
+        },
+        {
+          "name": "Huisbrouwerij De Halve Maan",
+          "description": "Historic family brewery since 1856; great tour.",
+          "timeIcon": "☀️",
+          "foodIcon": "⭐"
+        },
+        {
+          "name": "Cafe Vlissinghe",
+          "description": "Oldest pub in Bruges (1515!); cozy and authentic.",
+          "timeIcon": "☀️",
+          "foodIcon": "⭐"
+        },
+        {
+          "name": "Orfeo",
+          "alias": "Orfeo Italian Bruges",
+          "description": "Italian restaurant (opens at 6pm).",
+          "timeIcon": "🌙",
+          "foodIcon": "⭐"
+        },
+        {
+          "name": "Beertje",
+          "description": "Tiny legendary beer bar; 300+ Belgian brews.",
+          "timeIcon": "🌙",
+          "foodIcon": "⭐"
+        }
+      ]
+    },
+    {
+      "dayNum": 4,
+      "description": "Flexible day! Morning run or café crawl, museum or pond stroll, then a nice dinner walk (30-45 min) to the local Ixelles/Saint-Gilles neighborhoods.",
+      "recommendations": [
+        {
+          "name": "MOK Specialty Coffee",
+          "description": "Third-wave pioneer; two-time Belgian Cup Tasters champion. Clean design, excellent pour-overs.",
+          "timeIcon": "🌅",
+          "foodIcon": "☕"
+        },
+        {
+          "name": "Café Capitale",
+          "description": "Self-roasted beans near Grand Place; vinyl records playing, homemade pastries. Best cinnamon roll.",
+          "timeIcon": "🌅",
+          "foodIcon": "☕"
+        },
+        {
+          "name": "OR Coffee",
+          "description": "Brussels' original specialty roaster since 2001; spacious, great breakfast menu.",
+          "timeIcon": "🌅",
+          "foodIcon": "☕"
+        },
+        {
+          "name": "Restaurant MIM",
+          "description": "Rooftop at Musical Instrument Museum; lovely views, good salads. Hidden gem.",
+          "timeIcon": "☀️",
+          "foodIcon": "🍽️"
+        },
+        {
+          "name": "Café du Sablon",
+          "description": "Contemporary coffee shop; great for a light bite with views of the gothic church.",
+          "timeIcon": "☀️",
+          "foodIcon": "☕"
+        },
+        {
+          "name": "Café Belga",
+          "description": "Art Deco icon at Flagey; zinc bar, deck chairs, people-watching. Local institution.",
+          "timeIcon": "☀️",
+          "foodIcon": "🍽️"
+        },
+        {
+          "name": "Living Room",
+          "description": "Cozy mismatched furniture; great quiche and homemade cakes.",
+          "timeIcon": "☀️",
+          "foodIcon": "☕"
+        },
+        {
+          "name": "203",
+          "description": "Charming bistro; weekly changing set menu, natural wines. First-come-first-served, arrive at 7pm.",
+          "timeIcon": "🌙",
+          "foodIcon": "🍽️"
+        },
+        {
+          "name": "Les Pénates",
+          "description": "Seasonal, slow food focus; pared-down simplicity. Great natural wine list.",
+          "timeIcon": "🌙",
+          "foodIcon": "🍽️"
+        },
+        {
+          "name": "Le Chou de Bruxelles",
+          "description": "30+ mussel preparations; Brussels classics done right.",
+          "timeIcon": "🌙",
+          "foodIcon": "🦪"
+        },
+        {
+          "name": "L'Amour Fou",
+          "description": "Cozy local spot; famous pastrami sandwiches, live music, great cocktails since 1984.",
+          "timeIcon": "🌙",
+          "foodIcon": "🍽️"
+        }
+      ]
+    }
+  ],
+  "paris": [
+    {
+      "dayNum": 1,
+      "description": "Arrive by train at Gare du Nord around 12:30pm. Drop bags at the Airbnb near Canal Saint-Martin, then spend the afternoon walking the canal — bakeries, banh mi, and Le Comptoir Général. Evening at La Villette Christmas Market!",
+      "reservations": [
+        {
+          "time": "7:00pm",
+          "name": "Bistrot Rougemont",
+          "address": "Rue Rougemont, Paris 9",
+          "description": "Classic Parisian bistrot."
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Mamiche",
+          "alias": "Boulangerie Mamiche Paris 10th",
+          "description": "Artisan bakery — famous orange blossom brioche, incredible babka, buttery croissants.",
+          "timeIcon": "🌅",
+          "foodIcon": "⭐"
+        },
+        {
+          "name": "Best Tofu",
+          "description": "Chinese vegetarian spot on Boulevard de la Villette; silky tofu pudding, sesame balls, meat buns. Cash under €10.",
+          "timeIcon": "☀️",
+          "foodIcon": "⭐"
+        },
+        {
+          "name": "Le Comptoir Général",
+          "description": "Hidden bar-museum on the canal; tropical vibes, cocktails, weekend brunch.",
+          "timeIcon": "☀️",
+          "foodIcon": "🍹"
+        },
+        {
+          "name": "Ten Belles",
+          "description": "Third-wave coffee pioneer; excellent pastries, canal-side terrace.",
+          "timeIcon": "☀️",
+          "foodIcon": "☕"
+        }
+      ]
+    },
+    {
+      "dayNum": 2,
+      "description": "Disneyland Paris! Opens at 9:30am. Plan to eat inside the park, or grab dinner on the way back in Paris.",
+      "recommendations": [
+        {
+          "name": "Krügen Crêperie",
+          "description": "Authentic Breton crêpes if you skip park food — galettes and sweet crêpes.",
+          "timeIcon": "🌙",
+          "foodIcon": "🥞"
+        }
+      ]
+    },
+    {
+      "dayNum": 3,
+      "description": "Big Paris Day! Start in Le Marais (Place des Vosges, Rue des Rosiers), walk to Île Saint-Louis for chocolate, see Notre Dame, cross to the Left Bank, end at Tuileries Christmas Market. Fancy dinner at Le Clarence.",
+      "reservations": [
+        {
+          "time": "8:30pm",
+          "name": "Le Clarence",
+          "address": "31 Avenue Franklin D. Roosevelt, Paris 8",
+          "description": "Two Michelin stars. Dress nicely!"
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "JOJO & CO Pâtisserie",
+          "alias": "JOJO & CO Marais Paris",
+          "description": "Artisan pâtisserie in the Marais; famous pistachio flan, inventive tarts. Cozy spot near Hôtel de Ville.",
+          "timeIcon": "🌅",
+          "foodIcon": "⭐"
+        },
+        {
+          "name": "Laïzé Marais",
+          "alias": "Laize bubble tea Paris Marais",
+          "description": "Best Taiwanese boba in Paris; authentic tea, customize sweetness. Multiple Marais locations.",
+          "timeIcon": "☀️",
+          "foodIcon": "⭐"
+        },
+        {
+          "name": "L'As du Fallafel",
+          "description": "Legendary falafel on Rue des Rosiers; massive portions, always a queue.",
+          "timeIcon": "☀️",
+          "foodIcon": "🥙"
+        },
+        {
+          "name": "Berthillon",
+          "description": "Paris's most famous ice cream; get it on Île Saint-Louis.",
+          "timeIcon": "☀️",
+          "foodIcon": "🍦"
+        },
+        {
+          "name": "Ladurée",
+          "alias": "Laduree macarons Paris",
+          "description": "Iconic macarons! Multiple locations — Rue Royale is the original, Champs-Élysées is grand. Worth the splurge.",
+          "timeIcon": "☀️",
+          "foodIcon": "⭐"
+        },
+        {
+          "name": "Parcelles",
+          "alias": "Parcelles restaurant Paris 3rd",
+          "description": "Perfect bistrot à vins in northern Marais; exceptional wine list, refined French cooking. Reservations essential.",
+          "timeIcon": "🌙",
+          "foodIcon": "⭐"
+        },
+        {
+          "name": "Little Red Door",
+          "alias": "Little Red Door cocktail bar Paris",
+          "description": "World-famous speakeasy in Marais; creative cocktails, moody atmosphere. Walk-ins only. ⚠️ Ask about mocktails — they're known for innovative non-alcoholic options too.",
+          "timeIcon": "🌙",
+          "foodIcon": "⭐"
+        }
+      ]
+    },
+    {
+      "dayNum": 4,
+      "description": "Morning run on La Coulée Verte (Paris's Highline) or café-hop in the 11th. Afternoon rugby at Stade de France! The 11th arrondissement has Paris's best food scene — Clamato, Le Servan, Bistrot Paul Bert are all here.",
+      "reservations": [
+        {
+          "time": "2:30pm",
+          "name": "Racing 92 vs. Stade Français",
+          "address": "Stade de France, Saint-Denis",
+          "description": "Rugby! 🏉"
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Clamato",
+          "alias": "Clamato seafood Paris 11th",
+          "description": "Stellar seafood small plates; sister to Septime. No reservations — put your name down, drinks at Septime La Cave while you wait. Fruits de mer platter is the move.",
+          "timeIcon": "☀️",
+          "foodIcon": "⭐"
+        },
+        {
+          "name": "Le Servan",
+          "alias": "Le Servan Paris 11th",
+          "description": "French-Asian fusion by the Levha sisters; crispy ginger chicken, bluefin tuna brioche, blood sausage wontons. Reservations recommended.",
+          "timeIcon": "☀️",
+          "foodIcon": "⭐"
+        },
+        {
+          "name": "Septime La Cave",
+          "alias": "Septime La Cave Paris wine bar",
+          "description": "Natural wine bar across from Septime; small bites, amazing bottles. Perfect pre-dinner apéro spot. ⚠️ Wine-focused — limited non-alcoholic options.",
+          "timeIcon": "☀️",
+          "foodIcon": "⭐"
+        },
+        {
+          "name": "Le Bistrot Paul Bert",
+          "alias": "Bistrot Paul Bert Paris",
+          "description": "Iconic Parisian bistro — THE steak frites. Peppercorn sauce, perfect frites. Skip everything else, just get the steak. Reservations by phone only.",
+          "timeIcon": "🌙",
+          "foodIcon": "⭐"
+        },
+        {
+          "name": "Le Relais de l'Entrecôte",
+          "description": "No menu — just steak frites with secret sauce. Great backup if Paul Bert is full.",
+          "timeIcon": "🌙",
+          "foodIcon": "🥩"
+        },
+        {
+          "name": "Manger à la Maison",
+          "alias": "Manger a la Maison Sichuan Paris",
+          "description": "Authentic Sichuan near Grands Boulevards; spicy and flavorful. Good for a pre-rugby lunch.",
+          "timeIcon": "☀️",
+          "foodIcon": "⭐"
+        }
+      ]
+    }
+  ]
+}
