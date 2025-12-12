@@ -17,7 +17,7 @@
   },
   "depart": {
     "date": "12/29",
-    "time": "TBD",
+    "time": "10:40am",
     "type": "train",
     "location": "Zürich HB"
   },
@@ -25,8 +25,8 @@
     {
       "dayNum": 1,
       "date": "12/26",
-      "title": "Fondue",
-      "emoji": "🫕",
+      "title": "Arrival",
+      "emoji": "🚂",
       "activities": [
         { "timeIcon": "☀️", "text": "Walk to hotel, eat a snack" },
         { "timeIcon": "🌙", "text": "Stroll through Old Town" },

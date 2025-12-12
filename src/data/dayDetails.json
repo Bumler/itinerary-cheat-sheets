@@ -445,7 +445,7 @@
         {
           "time": "5:00pm",
           "name": "Food Tour",
-          "address": "TBD",
+          "address": "Place d'Austerlitz, Strasbourg",
           "description": "Alsatian food tour! 🍴"
         }
       ],
@@ -590,6 +590,384 @@
           "description": "Most restaurants and shops closed. Enjoy your groceries, cook something simple, and rest up before Zurich tomorrow!",
           "timeIcon": "☀️",
           "foodIcon": "🏠"
+        }
+      ]
+    }
+  ],
+  "zurich": [
+    {
+      "dayNum": 1,
+      "description": "Arrive at Zürich HB around 3:26pm. Walk to the Altstadt Hotel, drop bags, then explore Old Town and the Bahnhofstrasse lights (\"Lucy\"). Evening drinks at Bar am Wasser.",
+      "recommendations": [
+        {
+          "name": "Globus Delicatessen",
+          "alias": "Globus Bellevue Zurich food market",
+          "description": "Upscale food hall at Theaterstrasse 12; great for a quick snack or picnic supplies. Deli counter, pastries, Swiss chocolates.",
+          "timeIcon": "☀️",
+          "foodIcon": "⭐"
+        },
+        {
+          "name": "The Matcha Club",
+          "alias": "The Matcha Club Zurich",
+          "description": "Minimalist matcha bar near Paradeplatz; best matcha in Switzerland. Strawberry matcha, oat milk only. Tiny but worth it.",
+          "timeIcon": "☀️",
+          "foodIcon": "⭐"
+        },
+        {
+          "name": "Sternen Grill",
+          "alias": "Sternen Grill Zurich Bellevue",
+          "description": "Legendary bratwurst stand at Bellevue — Zurich institution since forever. St. Galler bratwurst + Bürli bread. No mustard (purists only).",
+          "timeIcon": "☀️",
+          "foodIcon": "🌭"
+        },
+        {
+          "name": "Swiss Chuchi",
+          "alias": "Swiss Chuchi Zurich fondue",
+          "description": "Classic fondue spot in Old Town; touristy but reliable. Good for first-night fondue if you can't wait. Reserve ahead.",
+          "timeIcon": "🌙",
+          "foodIcon": "⭐"
+        },
+        {
+          "name": "Bar am Wasser",
+          "alias": "Bar am Wasser Zurich",
+          "description": "Chill riverside bar in Niederdorf; great for evening drinks with views of the Limmat. ⚠️ Has a mocktail menu!",
+          "timeIcon": "🌙",
+          "foodIcon": "🍷"
+        }
+      ]
+    },
+    {
+      "dayNum": 2,
+      "description": "Spa day! Morning walk and climb Grossmünster tower for views. Afternoon at Thermalbad & Spa (2:30pm) — rooftop pool at sunset. Fondue dinner at Fribourger Fonduestübli.",
+      "reservations": [
+        {
+          "time": "2:30pm",
+          "name": "Thermalbad & Spa Zürich",
+          "address": "Brandschenkestrasse 150, 8002 Zürich",
+          "description": "Rooftop thermal pool with city views. Book ahead!"
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Café Sprüngli",
+          "alias": "Confiserie Sprungli Zurich Paradeplatz",
+          "description": "Iconic Swiss confiserie since 1836; Luxemburgerli macarons are the move. Beautiful café upstairs.",
+          "timeIcon": "🌅",
+          "foodIcon": "🍫"
+        },
+        {
+          "name": "Miró Coffee",
+          "alias": "Miro Manufactura de Cafe Zurich",
+          "description": "Specialty roastery & café on Brauerstrasse; excellent espresso, weekend brunch. Garden terrace, organic beans.",
+          "timeIcon": "🌅",
+          "foodIcon": "☕"
+        },
+        {
+          "name": "Fribourger Fonduestübli",
+          "alias": "Fribourger Fondue Stubli Zurich",
+          "description": "THE fondue spot — cozy, intimate, Fribourg-style moitié-moitié. Reserve well ahead, it's tiny and beloved.",
+          "timeIcon": "🌙",
+          "foodIcon": "⭐"
+        },
+        {
+          "name": "Le Dézaley",
+          "alias": "Le Dezaley Zurich fondue",
+          "description": "Another top fondue option in Old Town; charming décor, Gruyère-Vacherin blend. Good backup if Fribourger is full.",
+          "timeIcon": "🌙",
+          "foodIcon": "🫕"
+        }
+      ]
+    },
+    {
+      "dayNum": 3,
+      "description": "Lake & explore day! Morning run or walk along Lake Zurich. Funicular to Polyterrasse for views, then Zürich West & the Viadukt. Dinner at Sapa Canteen, drinks at Frau Gerolds Garten.",
+      "recommendations": [
+        {
+          "name": "Café Mame",
+          "alias": "Mame Coffee Zurich Josefstrasse",
+          "description": "Run by Swiss Barista Champions; amazing filter coffee, cozy space. Josefstrasse flagship is the one to hit.",
+          "timeIcon": "🌅",
+          "foodIcon": "☕"
+        },
+        {
+          "name": "COFFEE",
+          "alias": "Coffee Zurich Ankerstrasse",
+          "description": "Minimalist café by another Swiss Barista Champion; killer espresso, banana bread from John Baker. Sidewalk vibes.",
+          "timeIcon": "🌅",
+          "foodIcon": "☕"
+        },
+        {
+          "name": "Im Viadukt",
+          "alias": "Im Viadukt Zurich market",
+          "description": "Cool market halls under old railway arches; food stalls, local shops, great for browsing. Markthalle has lunch options.",
+          "timeIcon": "☀️",
+          "foodIcon": "🛒"
+        },
+        {
+          "name": "Raclette Factory",
+          "alias": "Raclette Factory Zurich",
+          "description": "If you want raclette instead of fondue — modern spot, great cheese selection. Rindermarkt location.",
+          "timeIcon": "☀️",
+          "foodIcon": "🧀"
+        },
+        {
+          "name": "Sapa Canteen",
+          "alias": "Sapa Canteen Zurich",
+          "description": "Vietnamese in Zürich West; pho, banh mi, fresh rolls. Casual, affordable (for Zurich).",
+          "timeIcon": "🌙",
+          "foodIcon": "⭐"
+        },
+        {
+          "name": "Frau Gerolds Garten",
+          "alias": "Frau Gerolds Garten Zurich",
+          "description": "Urban garden bar near the train station; fairy lights, shipping containers, great vibes. Fondue in winter too!",
+          "timeIcon": "🌙",
+          "foodIcon": "🍻"
+        }
+      ]
+    }
+  ],
+  "salzburg": [
+    {
+      "dayNum": 1,
+      "description": "Arrival day! Train from Zurich gets in at 3:26pm. Walk Makartsteg 'love lock' bridge, wander Getreidegasse, explore Cathedral Square Christmas market. Dinner at Die Weisse or Gasthaus Hinterbrühl.",
+      "recommendations": [
+        {
+          "name": "Balkan Grill",
+          "alias": "Balkan Grill Bosna Salzburg",
+          "description": "Legendary Bosna stand in a tiny alley off Getreidegasse since 1950! Grilled sausages, raw onion, curry powder. Cash only, always a queue.",
+          "timeIcon": "☀️",
+          "foodIcon": "🌭"
+        },
+        {
+          "name": "Konditorei Fürst",
+          "alias": "Cafe Konditorei Furst Salzburg Mozartkugel",
+          "description": "The ORIGINAL Mozartkugel inventor! Only place with the real thing. Also has nice café for coffee & cake.",
+          "timeIcon": "☀️",
+          "foodIcon": "🍫"
+        },
+        {
+          "name": "Die Weisse",
+          "alias": "Die Weisse Brauerei Salzburg",
+          "description": "White beer brewery with beer hall vibes; wood tables, fires outside, local favorite. Käsespätzle, schnitzel, roast pork. Might be open during holiday!",
+          "timeIcon": "🌙",
+          "foodIcon": "🍺"
+        },
+        {
+          "name": "Gasthaus Hinterbrühl",
+          "alias": "Gasthaus Hinterbruhl Salzburg",
+          "description": "Cozy Austrian inn; hearty food, local crowd. Good Kässpätzle. Backup if Die Weisse is packed.",
+          "timeIcon": "🌙",
+          "foodIcon": "🧀"
+        }
+      ]
+    },
+    {
+      "dayNum": 2,
+      "description": "Spa day trip! Morning train to Bad Reichenhall (Germany). Coffee & walk the town, then Rupertus Therme thermal baths. Return to Salzburg for dinner at Gasthaus Goldgasse (8pm reservation).",
+      "reservations": [
+        {
+          "time": "8:00pm",
+          "name": "Gasthaus Goldgasse",
+          "address": "Goldgasse 10, 5020 Salzburg",
+          "description": "Traditional Austrian; reservation confirmed"
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Café-Restaurant Reber",
+          "alias": "Reber Cafe Bad Reichenhall Mozart chocolate",
+          "description": "Historic café (since 1940) at the famous Mozart chocolate makers! Cakes, goulash soup, apple strudel. Great pit stop.",
+          "timeIcon": "🌅",
+          "foodIcon": "☕"
+        },
+        {
+          "name": "Rupertus Therme",
+          "alias": "Rupertus Therme Bad Reichenhall spa",
+          "description": "Alpine thermal baths complex; salt-water pools, saunas, relaxation areas. Perfect winter day activity.",
+          "timeIcon": "☀️",
+          "foodIcon": "🧖"
+        },
+        {
+          "name": "Ratio Coffee",
+          "alias": "Ratio Coffee Salzburg specialty",
+          "description": "Best specialty coffee in Salzburg! Melbourne-style, Linzergasse location. Solar-powered roastery, natural wines too.",
+          "timeIcon": "☀️",
+          "foodIcon": "☕"
+        },
+        {
+          "name": "Gasthaus Goldgasse",
+          "alias": "Gasthaus Goldgasse Salzburg",
+          "description": "Beautiful Old Town gasthaus; excellent Austrian classics, cozy atmosphere. Book ahead!",
+          "timeIcon": "🌙",
+          "foodIcon": "🍽️"
+        }
+      ]
+    },
+    {
+      "dayNum": 3,
+      "description": "New Year's Eve! Café crawl morning, funicular to Mönchsberg for ridge walk. Dinner then wander the Domplatz area for live music. Gun salutes at 4pm, Cathedral bells & fortress fireworks at midnight!",
+      "recommendations": [
+        {
+          "name": "Kaffee Alchemie",
+          "alias": "Kaffee Alchemie Salzburg specialty coffee",
+          "description": "Run by a barista world championship judge! Specialty coffee, Aeropress focus. River-facing seats, third-wave vibes.",
+          "timeIcon": "🌅",
+          "foodIcon": "☕"
+        },
+        {
+          "name": "220 Grad",
+          "alias": "220 Grad Kaffeerosterei Salzburg",
+          "description": "Local roaster with excellent café near old town. French press, fancy brewing methods, homemade cakes. Introduced specialty coffee to Salzburg!",
+          "timeIcon": "🌅",
+          "foodIcon": "☕"
+        },
+        {
+          "name": "Mönchsberg Lift",
+          "alias": "Monchsberg lift funicular Salzburg",
+          "description": "Funicular up to Mönchsberg for stunning views. Walk the ridge, see the fortress from different angles. Museum of Modern Art up top.",
+          "timeIcon": "☀️",
+          "foodIcon": "🚃"
+        },
+        {
+          "name": "Sternbräu",
+          "alias": "Sternbrau Salzburg beer garden",
+          "description": "Big brewery complex with beer garden in the center; classic Austrian fare, Salzburger Nockerl for dessert.",
+          "timeIcon": "☀️",
+          "foodIcon": "🍺"
+        },
+        {
+          "name": "Augustiner Bräu",
+          "alias": "Augustiner Braustubl Salzburg beer hall",
+          "description": "Austria's biggest beer garden! 15 min walk, but worth it. Fill your own stein from wooden barrels, grab schnitzel & pretzels from stalls. Legendary.",
+          "timeIcon": "🌙",
+          "foodIcon": "🍺"
+        },
+        {
+          "name": "IMLAUER Sky Bar",
+          "alias": "IMLAUER Sky Bar Restaurant Salzburg",
+          "description": "Rooftop bar with panoramic fortress views — ideal for NYE fireworks! Reserve well ahead for dinner.",
+          "timeIcon": "🌙",
+          "foodIcon": "🍸"
+        }
+      ]
+    }
+  ],
+  "vienna": [
+    {
+      "dayNum": 1,
+      "description": "Final city! Arrive 1:50pm from Salzburg. Check into The Guesthouse Vienna, then walk Stephansplatz → Graben → Kohlmarkt → Hofburg. End at the final Christmas markets: Rathausplatz & Maria-Theresien-Platz.",
+      "recommendations": [
+        {
+          "name": "Café Central",
+          "alias": "Cafe Central Vienna Herrengasse coffeehouse",
+          "description": "THE legendary Viennese coffeehouse since 1876! Palais Ferstel, vaulted ceilings, piano music. Freud & Trotsky drank here. Touristy but iconic.",
+          "timeIcon": "☀️",
+          "foodIcon": "☕"
+        },
+        {
+          "name": "Demel",
+          "alias": "Demel Vienna confectionery Kohlmarkt",
+          "description": "Imperial confectioner since 1786! Stunning pastry displays, Sachertorte rival. Female-only servers for 200 years. Worth the splurge.",
+          "timeIcon": "☀️",
+          "foodIcon": "🍰"
+        },
+        {
+          "name": "Trzesniewski",
+          "alias": "Trzesniewski Vienna sandwiches",
+          "description": "Tiny open-faced sandwich shop since 1902; locals stand & snack. Egg, herring, paprika spreads on dark bread. Quick, cheap, very Viennese.",
+          "timeIcon": "☀️",
+          "foodIcon": "🥪"
+        },
+        {
+          "name": "Rathausplatz Christmas Market",
+          "alias": "Christkindlmarkt Rathausplatz Vienna",
+          "description": "The big one! City Hall backdrop, ice skating rink, tons of stalls. Last chance for Glühwein & Punsch!",
+          "timeIcon": "🌙",
+          "foodIcon": "🎄"
+        },
+        {
+          "name": "Maria-Theresien-Platz Market",
+          "alias": "Weihnachtsdorf Maria Theresien Platz Vienna",
+          "description": "Lovely market between the twin museums; more intimate, artisan crafts. Nice final market stop.",
+          "timeIcon": "🌙",
+          "foodIcon": "🎄"
+        }
+      ]
+    },
+    {
+      "dayNum": 2,
+      "description": "Last full day! Slow coffeehouse morning, then walk along Danube Canal Promenade (street art!). Late lunch at Schnitzelwirt. Evening: Hansel und Gretel at Volksoper (7pm), then late-night Döner.",
+      "reservations": [
+        {
+          "time": "7:00pm",
+          "name": "Hänsel und Gretel - Wiener Staatsoper",
+          "address": "Opernring 2, 1010 Wien",
+          "description": "Opera tickets confirmed"
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Café Sperl",
+          "alias": "Cafe Sperl Vienna traditional coffeehouse",
+          "description": "Perfectly preserved since 1880! Billiard tables, velvet seats, zero tourists compared to Central. Order a Melange & Sperl Torte. THE local favorite.",
+          "timeIcon": "🌅",
+          "foodIcon": "☕"
+        },
+        {
+          "name": "Jonas Reindl",
+          "alias": "Jonas Reindl Coffee Vienna specialty",
+          "description": "Popular specialty coffee in the 7th; light roasts, excellent cortado. Big space, laptop-friendly. Cash only! Beans from Italian roastery Gardelli.",
+          "timeIcon": "🌅",
+          "foodIcon": "☕"
+        },
+        {
+          "name": "Café Hawelka",
+          "alias": "Cafe Hawelka Vienna bohemian",
+          "description": "Tiny, legendary, bohemian. Open until 2am! Famous Buchteln (jam buns) served only after 10pm. Where artists drink.",
+          "timeIcon": "🌙",
+          "foodIcon": "☕"
+        },
+        {
+          "name": "Schnitzelwirt",
+          "alias": "Schnitzelwirt Vienna Neubaugasse",
+          "description": "More local than Figlmüller, 35+ years running! Huge portions, many schnitzel variations. Classic vibes.",
+          "timeIcon": "☀️",
+          "foodIcon": "⭐"
+        },
+        {
+          "name": "Vollpension",
+          "alias": "Vollpension Vienna cafe grandmas",
+          "description": "All cakes baked by grandmas & grandpas! Quirky, intergenerational café. Great breakfast & light bites too. Multiple locations.",
+          "timeIcon": "☀️",
+          "foodIcon": "🍰"
+        },
+        {
+          "name": "Bitzinger Würstelstand",
+          "alias": "Bitzinger Wurstchstand Albertina Vienna sausage",
+          "description": "Famous sausage stand behind the opera! Käsekrainer (cheese-filled) is the move. Champagne & hot dogs — very Viennese.",
+          "timeIcon": "🌙",
+          "foodIcon": "🌭"
+        },
+        {
+          "name": "Maschu Maschu",
+          "alias": "Maschu Maschu Vienna falafel Israeli",
+          "description": "Great Israeli food near Schwedenplatz; falafel, hummus, shawarma. Good late-night option.",
+          "timeIcon": "🌙",
+          "foodIcon": "🥙"
+        }
+      ]
+    },
+    {
+      "dayNum": 3,
+      "description": "Farewell day 😢 7:20am flight means very early wake-up. Quick coffee if anything's open, then drag ourselves to VIE. Safe travels home!",
+      "recommendations": [
+        {
+          "name": "Airport Coffee",
+          "alias": "Vienna Airport VIE coffee",
+          "description": "Grab whatever's open at that ungodly hour. You survived 3 weeks of Christmas markets. You've earned it.",
+          "timeIcon": "💀",
+          "foodIcon": "☕"
         }
       ]
     }
